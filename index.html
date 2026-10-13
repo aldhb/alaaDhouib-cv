@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alaa DHOUIB — Développeur Web Full Stack | IA & Data Science</title>
+<meta name="description" content="CV en ligne d'Alaa DHOUIB, développeur web full stack (Laravel, PHP, React, Angular, SQL) et élève ingénieur en IA et Data Science à Sfax, Tunisie.">
+<meta name="author" content="Alaa DHOUIB">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#1F6B75" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f2225" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Alaa DHOUIB — Développeur Web Full Stack">
+<meta property="og:description" content="Élève ingénieur en IA & Data Science, développeur Laravel / React / Angular. Basé à Sfax, Tunisie.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Alaa DHOUIB",
+  "jobTitle": "Développeur Web Full Stack",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Sfax",
+    "addressCountry": "TN"
+  },
+  "email": "mailto:dhouib.alaa@gmail.com",
+  "knowsAbout": ["PHP", "Laravel", "React", "Angular", "HTML", "CSS", "SQL", "Business Intelligence", "Analyse de données"]
+}
+</script>
+<style>
+/* ===== Base ===== */
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --teal:#1F6B75;
+  --teal-dark:#14474e;
+  --teal-soft:#e6f2f3;
+  --bg:#ffffff;
+  --bg-alt:#f4f7f7;
+  --card:#ffffff;
+  --text:#1a2426;
+  --muted:#4b5b5e;
+  --border:#d9e4e5;
+  --header-bg:rgba(255,255,255,.96);
+  --badge-bg:#e6f2f3;
+  --badge-text:#14474e;
+  --focus:#0f4c55;
+  --shadow:0 2px 12px rgba(20,71,78,.08);
+  --radius:14px;
+  --max:1080px;
+}
+html[data-theme="dark"]{
+  --teal:#6fcbd4;
+  --teal-dark:#8fdb e3;
+  --teal-soft:#143337;
+  --bg:#101a1b;
+  --bg-alt:#152425;
+  --card:#18292b;
+  --text:#eef5f5;
+  --muted:#b6c7c8;
+  --border:#2a4345;
+  --header-bg:rgba(16,26,27,.96);
+  --badge-bg:#1d3a3d;
+  --badge-text:#d8f2f4;
+  --focus:#8fdae1;
+  --shadow:0 2px 14px rgba(0,0,0,.35);
+}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  background:var(--bg);color:var(--text);
+  line-height:1.65;font-size:1rem;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--teal);text-underline-offset:3px}
+html[data-theme="dark"] a{color:#7fd6de}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:4px}
+.skip-link{position:absolute;left:-9999px;top:0;background:#14474e;color:#fff;padding:.7rem 1rem;z-index:200;border-radius:0 0 8px 0}
+.skip-link:focus{left:0;color:#fff}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 1.1rem}
+section{padding:2.6rem 0}
+section h2{font-size:1.45rem;margin:0 0 .4rem;letter-spacing:-.01em}
+.section-sub{color:var(--muted);margin:0 0 1.4rem;max-width:65ch}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:1.25rem 1.25rem}
+
+/* ===== Header / nav ===== */
+header.site{position:sticky;top:0;z-index:100;background:var(--header-bg);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:.6rem;min-height:62px;max-width:var(--max);margin:0 auto;padding:.4rem 1.1rem}
+.brand{font-weight:800;text-decoration:none;color:var(--text);font-size:1.05rem;letter-spacing:-.01em}
+.brand span{color:#1F6B75}
+html[data-theme="dark"] .brand span{color:#7fd6de}
+.nav-actions{display:flex;align-items:center;gap:.5rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;border-radius:999px;border:1px solid transparent;padding:.68rem 1.15rem;font-weight:650;font-size:.95rem;cursor:pointer;text-decoration:none;line-height:1.2;transition:transform .15s ease,background .15s ease}
+.btn-primary{background:#1F6B75;color:#fff}
+.btn-primary:hover{background:#14474e;color:#fff}
+html[data-theme="dark"] .btn-primary{background:#2a8a95;color:#06272b}
+html[data-theme="dark"] .btn-primary:hover{background:#37a3ae;color:#06272b}
+.btn-secondary{background:transparent;border-color:var(--border);color:var(--text)}
+.btn-secondary:hover{border-color:#1F6B75}
+html[data-theme="dark"] .btn-secondary:hover{border-color:#7fd6de}
+.btn-small{padding:.45rem .8rem;font-size:.87rem}
+.icon-btn{background:transparent;border:1px solid var(--border);border-radius:10px;color:var(--text);cursor:pointer;padding:.5rem .6rem;font-size:1rem;line-height:1}
+#menu-btn{display:inline-flex}
+#nav-links{list-style:none;margin:0;padding:0;display:none;flex-direction:column;gap:.15rem;background:var(--header-bg);border-top:1px solid var(--border);padding:.6rem 1.1rem 1rem}
+#nav-links.open{display:flex}
+#nav-links a{display:block;padding:.6rem .6rem;border-radius:8px;text-decoration:none;color:var(--text);font-weight:550}
+#nav-links a:hover{background:var(--teal-soft)}
+@media(min-width:900px){
+  #menu-btn{display:none}
+  #nav-links{display:flex!important;flex-direction:row;align-items:center;gap:.15rem;background:transparent;border:0;padding:0}
+  #nav-links a{padding:.5rem .65rem;font-size:.92rem;white-space:nowrap}
+  .nav{ gap:1rem}
+}
+
+/* ===== Hero ===== */
+.hero{background:linear-gradient(180deg,var(--teal-soft),transparent 75%);border-bottom:1px solid var(--border);padding:3rem 0 2.4rem}
+.hero-grid{display:grid;gap:1.6rem;align-items:center}
+@media(min-width:820px){.hero-grid{grid-template-columns:200px 1fr;gap:2.2rem}.hero{padding:3.6rem 0 3rem}}
+.photo-frame{width:172px;height:172px;border-radius:28px;overflow:hidden;border:4px solid #fff;box-shadow:var(--shadow);background:var(--bg-alt);justify-self:start}
+.photo-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.eyebrow{display:inline-block;font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#14474e;background:#dceeee;border-radius:999px;padding:.3rem .75rem;margin-bottom:.7rem}
+html[data-theme="dark"] .eyebrow{color:#d8f2f4;background:#1d3a3d}
+.hero h1{font-size:2rem;line-height:1.12;margin:0 0 .3rem;letter-spacing:-.02em}
+@media(min-width:820px){.hero h1{font-size:2.6rem}}
+.hero .role{font-weight:700;color:#1F6B75;margin:0 0 .7rem;font-size:1.05rem}
+html[data-theme="dark"] .hero .role{color:#7fd6de}
+.hero .hook{color:var(--muted);max-width:68ch;margin:0 0 1rem}
+.meta{display:flex;flex-wrap:wrap;gap:.5rem .9rem;color:var(--muted);font-size:.94rem;margin:0 0 1.3rem}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.65rem}
+
+/* ===== Badges compétences ===== */
+.skills-grid{display:grid;gap:.9rem}
+@media(min-width:820px){.skills-grid{grid-template-columns:1fr 1fr}}
+.skill-cat h3{font-size:.98rem;margin:0 0 .65rem;color:#14474e}
+html[data-theme="dark"] .skill-cat h3{color:#a9e3e8}
+.badges{list-style:none;display:flex;flex-wrap:wrap;gap:.45rem;margin:0;padding:0}
+.badges li{background:var(--badge-bg);color:var(--badge-text);border:1px solid var(--border);border-radius:999px;padding:.36rem .75rem;font-size:.88rem;font-weight:600}
+
+/* ===== Timeline ===== */
+.timeline{list-style:none;margin:0;padding:0;position:relative}
+.timeline::before{content:"";position:absolute;left:10px;top:8px;bottom:8px;width:2px;background:var(--border)}
+.timeline>li{position:relative;padding:0 0 1.1rem 2.4rem}
+.timeline>li:last-child{padding-bottom:0}
+.dot{position:absolute;left:2px;top:6px;width:18px;height:18px;border-radius:50%;background:#1F6B75;border:3px solid var(--bg);box-shadow:0 0 0 2px #1F6B75}
+html[data-theme="dark"] .dot{background:#5ec2cc;box-shadow:0 0 0 2px #5ec2cc}
+.job-title{margin:0 0 .15rem;font-size:1.05rem}
+.job-meta{color:var(--muted);font-size:.92rem;margin:0 0 .55rem}
+ul.clean{margin:.4rem 0 0;padding-left:1.15rem}
+ul.clean li{margin-bottom:.3rem}
+.edu-item{display:grid;gap:.1rem;padding:.9rem 0;border-bottom:1px dashed var(--border)}
+.edu-item:last-child{border-bottom:0}
+.edu-years{font-weight:750;color:#1F6B75;font-size:.9rem}
+html[data-theme="dark"] .edu-years{color:#7fd6de}
+
+/* ===== Contact ===== */
+.contact-grid{display:grid;gap:.9rem}
+@media(min-width:820px){.contact-grid{grid-template-columns:1.2fr .8fr}}
+.contact-line{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;margin:.7rem 0}
+.muted{color:var(--muted)}
+.status{min-height:1.4em;font-size:.9rem;color:var(--muted)}
+footer{border-top:1px solid var(--border);padding:1.4rem 0 2rem;color:var(--muted);font-size:.9rem}
+
+/* ===== Apparition discrète ===== */
+.reveal{opacity:0;transform:translateY(10px);transition:opacity .5s ease,transform .5s ease}
+.reveal.visible{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
+<header class="site">
+  <div class="nav" role="navigation" aria-label="Navigation principale">
+    <a class="brand" href="#accueil" aria-label="Retour en haut">Alaa <span>DHOUIB</span></a>
+    <div class="nav-actions">
+      <a class="btn btn-primary btn-small" href="cv.pdf" download>Télécharger le CV</a>
+      <button id="theme-btn" class="icon-btn" type="button" aria-pressed="false" aria-label="Basculer entre mode clair et sombre" title="Clair / sombre">◐</button>
+      <button id="menu-btn" class="icon-btn" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Ouvrir le menu">☰</button>
+    </div>
+  </div>
+  <nav aria-label="Sections du CV">
+    <ul id="nav-links">
+      <li><a href="#a-propos">À propos</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#experience">Expérience</a></li>
+      <li><a href="#formation">Formation</a></li>
+      <li><a href="#associatif">Associatif</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#langues">Langues</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="contenu">
+  <!-- Hero -->
+  <section class="hero" id="accueil" aria-labelledby="titre-hero">
+    <div class="wrap hero-grid">
+      <div class="photo-frame">
+        <img src="photo.jpg" alt="Photo de Alaa DHOUIB" width="400" height="400" fetchpriority="high">
+      </div>
+      <div>
+        <span class="eyebrow">Sfax, Tunisie — Disponible</span>
+        <h1 id="titre-hero">Alaa DHOUIB</h1>
+        <p class="role">Développeur Web Full Stack | Élève ingénieur en Intelligence Artificielle et Data Science</p>
+        <p class="hook">Élève ingénieur en 2ème année d'Intelligence Artificielle et Data Science (IIT Sfax), titulaire d'une licence en Informatique de Gestion, spécialité Business Intelligence. J'ai conçu, développé et administré le site e-commerce d'une société de vente en gros d'accessoires GSM et informatique.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact">Me contacter</a>
+          <a class="btn btn-secondary" href="cv.pdf" download>Télécharger mon CV (PDF)</a>
+        </div>
+        <p class="meta" aria-label="Informations rapides">
+          <span>📍 Sfax, Tunisie</span>
+          <span>✉️ <a href="mailto:dhouib.alaa@gmail.com">dhouib.alaa@gmail.com</a></span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <!-- À propos -->
+    <section id="a-propos" class="reveal" aria-labelledby="t-a-propos">
+      <h2 id="t-a-propos">À propos</h2>
+      <p class="section-sub">Profil</p>
+      <div class="card">
+        <p>Élève ingénieur en 2ème année d'Intelligence Artificielle et Data Science (IIT Sfax), titulaire d'une licence en Informatique de Gestion, spécialité Business Intelligence. Développeur web full stack (Laravel, PHP, React, Angular, SQL) ayant conçu, développé et administré le site e-commerce d'une société de vente en gros d'accessoires GSM et informatique. Rigoureux, doté d'un bon esprit d'analyse et du sens de la résolution de problèmes, avec une réelle écoute des utilisateurs.</p>
+      </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences" class="reveal" aria-labelledby="t-competences">
+      <h2 id="t-competences">Compétences</h2>
+      <p class="section-sub">Regroupées par catégorie, sans niveaux chiffrés.</p>
+      <div class="skills-grid">
+        <div class="card skill-cat"><h3>Back-end</h3><ul class="badges"><li>PHP</li><li>Laravel</li></ul></div>
+        <div class="card skill-cat"><h3>Front-end</h3><ul class="badges"><li>HTML</li><li>CSS</li><li>React</li><li>Angular</li></ul></div>
+        <div class="card skill-cat"><h3>Bases de données</h3><ul class="badges"><li>SQL</li><li>phpMyAdmin</li><li>Modélisation de données</li></ul></div>
+        <div class="card skill-cat"><h3>Data &amp; BI</h3><ul class="badges"><li>Business Intelligence (BI)</li><li>Analyse de données</li></ul></div>
+        <div class="card skill-cat"><h3>Administration de site e-commerce</h3><ul class="badges"><li>Hébergement</li><li>Mises à jour</li><li>Maintenance</li><li>Sécurité</li><li>Gestion du catalogue produits</li></ul></div>
+        <div class="card skill-cat"><h3>Support &amp; documentation</h3><ul class="badges"><li>Diagnostic et résolution de problèmes</li><li>Assistance aux utilisateurs</li><li>Installation et configuration de logiciels</li><li>Documentation technique</li></ul></div>
+        <div class="card skill-cat"><h3>Transversales</h3><ul class="badges"><li>Gestion de projet</li><li>Leadership et gestion d'équipe</li><li>Communication claire avec les non-techniciens</li><li>Esprit d'entrepreneuriat</li></ul></div>
+      </div>
+    </section>
+
+    <!-- Expérience -->
+    <section id="experience" class="reveal" aria-labelledby="t-experience">
+      <h2 id="t-experience">Expérience professionnelle</h2>
+      <p class="section-sub">Parcours technique et fonctionnel.</p>
+      <ol class="timeline">
+        <li>
+          <span class="dot" aria-hidden="true"></span>
+          <div class="card">
+            <h3 class="job-title">Responsable technique et développeur du site e-commerce — Société BSM</h3>
+            <p class="job-meta">Vente en gros d'accessoires GSM et informatique · Sfax</p>
+            <ul class="clean">
+              <li>Conçu et développé le site e-commerce de la société.</li>
+              <li>Administré le site : hébergement, base de données, mises à jour et maintenance.</li>
+              <li>Diagnostiqué et résolu les incidents techniques, et assuré l'assistance des utilisateurs et des clients.</li>
+              <li>Géré le catalogue produits et les commandes, et assuré le suivi de la relation client.</li>
+              <li>Assuré le suivi des performances et de la sécurité du site.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Formation -->
+    <section id="formation" class="reveal" aria-labelledby="t-formation">
+      <h2 id="t-formation">Formation</h2>
+      <p class="section-sub">Cursus académique.</p>
+      <div class="card">
+        <div class="edu-item"><span class="edu-years">2026 – 2027</span><strong>Cycle ingénieur en Intelligence Artificielle et Data Science (2ème année) – IIT Sfax</strong></div>
+        <div class="edu-item"><span class="edu-years">2025 – 2026</span><strong>Cycle ingénieur en Génie Informatique (1ère année) – IIT Sfax</strong></div>
+        <div class="edu-item"><span class="edu-years">2022 – 2025</span><strong>Licence nationale en Informatique de Gestion, spécialité Business Intelligence – ISGIS Sfax</strong></div>
+        <div class="edu-item"><span class="edu-years">2021</span><strong>Baccalauréat Économie et Gestion – Lycée Taieb El Mhiri, Sfax</strong></div>
+      </div>
+    </section>
+
+    <!-- Associatif -->
+    <section id="associatif" class="reveal" aria-labelledby="t-associatif">
+      <h2 id="t-associatif">Expérience associative</h2>
+      <p class="section-sub">Engagement et communication.</p>
+      <ol class="timeline">
+        <li>
+          <span class="dot" aria-hidden="true"></span>
+          <div class="card">
+            <h3 class="job-title">Chef du département Marketing Digital — Ider Club, ISGIS Sfax</h3>
+            <p class="job-meta">Précédemment membre du département</p>
+            <ul class="clean">
+              <li>Coordonné l'équipe du département et assuré le suivi des projets marketing.</li>
+              <li>Participé à l'élaboration des stratégies de communication digitale.</li>
+              <li>Géré et animé les réseaux sociaux du club.</li>
+              <li>Créé des contenus graphiques et audiovisuels (dont des montages vidéo) pour promouvoir les activités et les événements.</li>
+              <li>Participé aux campagnes de communication et aux activités promotionnelles en tant que membre du département.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="reveal" aria-labelledby="t-certifications">
+      <h2 id="t-certifications">Certifications et formations complémentaires</h2>
+      <p class="section-sub">Apprentissages complémentaires.</p>
+      <div class="card">
+        <ul class="clean">
+          <li>Laboratoire Tripartite d'Innovation : Design Thinking, Lean Startup, Lean Canvas, Pitching (Pépinière d'entreprises de Sfax / Ider ISGIS / société Jalyys)</li>
+          <li>Certification Office 365</li>
+          <li>Formation en montage vidéo : Adobe Premiere Pro</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Langues / intérêts -->
+    <section id="langues" class="reveal" aria-labelledby="t-langues">
+      <h2 id="t-langues">Langues &amp; centres d'intérêt</h2>
+      <div class="skills-grid">
+        <div class="card skill-cat"><h3>Langues</h3><ul class="badges"><li>Arabe (langue maternelle)</li><li>Français (courant)</li><li>Anglais (courant)</li></ul></div>
+        <div class="card skill-cat"><h3>Centres d'intérêt</h3><ul class="badges"><li>Entrepreneuriat</li><li>Création de contenu digital</li></ul></div>
+      </div>
+    </section>
+
+    <!-- Projets (masquée — à remplir) -->
+    <section id="projets" hidden aria-labelledby="t-projets">
+      <h2 id="t-projets">Projets</h2>
+      <!--
+      CARTE MODÈLE 1 — à compléter :
+      <article class="card">
+        <h3>Titre du projet</h3>
+        <p>Description courte du projet.</p>
+        <p>Technologies : ex. Laravel, React, SQL</p>
+        <p><a href="https://github.com/UTILISATEUR/REPO">GitHub</a> · <a href="https://demo.exemple.fr">Démo</a></p>
+      </article>
+
+      CARTE MODÈLE 2 — à compléter :
+      <article class="card">
+        <h3>Titre du projet</h3>
+        <p>Description courte du projet.</p>
+        <p>Technologies : ex. Angular, PHP, SQL</p>
+        <p><a href="https://github.com/UTILISATEUR/REPO">GitHub</a> · <a href="https://demo.exemple.fr">Démo</a></p>
+      </article>
+      Pour afficher la section : retirez l'attribut « hidden » de <section id="projets">.
+      -->
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="reveal" aria-labelledby="t-contact">
+      <h2 id="t-contact">Contact</h2>
+      <p class="section-sub">Réponse rapide — recruteurs et responsables techniques bienvenus.</p>
+      <div class="contact-grid">
+        <div class="card">
+          <p><strong>Email</strong><br><a id="email-link" href="mailto:dhouib.alaa@gmail.com">dhouib.alaa@gmail.com</a></p>
+          <div class="contact-line">
+            <button id="copy-email" class="btn btn-secondary btn-small" type="button">Copier l'email</button>
+            <a class="btn btn-primary btn-small" href="mailto:dhouib.alaa@gmail.com?subject=Candidature%20—%20D%C3%A9veloppeur%20Web%20Full%20Stack">Me contacter</a>
+          </div>
+          <p class="status" id="copy-status" role="status" aria-live="polite"></p>
+          <p><strong>Téléphone</strong><br>
+            <span id="phone-zone">
+              <button id="show-phone" class="btn btn-secondary btn-small" type="button" aria-expanded="false" aria-controls="phone-number">Afficher le numéro</button>
+              <a id="phone-number" href="tel:+21655334713" hidden>+216 55 334 713</a>
+            </span>
+          </p>
+          <p class="muted">📍 Sfax, Tunisie</p>
+          <!-- À COMPLÉTER — LinkedIn / GitHub : remplacez les href par vos vrais liens puis décommentez
+          <p>
+            <a class="btn btn-secondary btn-small" href="https://linkedin.com/in/VOTRE-PROFIL">LinkedIn</a>
+            <a class="btn btn-secondary btn-small" href="https://github.com/VOTRE-PSEUDO">GitHub</a>
+          </p>
+          -->
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Télécharger le CV</h3>
+          <p class="muted">Version PDF pour candidature et impression.</p>
+          <p><a class="btn btn-primary" href="cv.pdf" download>Télécharger mon CV (PDF)</a></p>
+          <p class="muted" style="font-size:.9rem">Fichier attendu : <code>cv.pdf</code> à côté de <code>index.html</code>.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="year">2026</span> Alaa DHOUIB — Sfax, Tunisie · <a href="mailto:dhouib.alaa@gmail.com">dhouib.alaa@gmail.com</a></div>
+</footer>
+
+<script>
+(function(){
+  var root = document.documentElement;
+  var btn = document.getElementById('theme-btn');
+  function systemDark(){ return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches; }
+  function apply(t){
+    root.setAttribute('data-theme', t);
+    if(btn){ btn.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false'); }
+    try{ localStorage.setItem('theme', t); }catch(e){}
+  }
+  var saved = null;
+  try{ saved = localStorage.getItem('theme'); }catch(e){}
+  apply(saved || (systemDark() ? 'dark' : 'light'));
+  if(btn){ btn.addEventListener('click', function(){
+    apply(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+  });}
+
+  // Menu mobile
+  var menuBtn = document.getElementById('menu-btn');
+  var links = document.getElementById('nav-links');
+  if(menuBtn && links){
+    menuBtn.addEventListener('click', function(){
+      var open = links.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      menuBtn.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+    });
+    links.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && links.classList.contains('open')){
+        links.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  // Copier l'email
+  var copyBtn = document.getElementById('copy-email');
+  var status = document.getElementById('copy-status');
+  var email = 'dhouib.alaa@gmail.com';
+  if(copyBtn){
+    copyBtn.addEventListener('click', function(){
+      function done(msg){ if(status) status.textContent = msg; }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(email).then(function(){ done('Email copié dans le presse-papiers.'); }, function(){ fallback(); });
+      } else { fallback(); }
+      function fallback(){
+        var ta = document.createElement('textarea');
+        ta.value = email; document.body.appendChild(ta); ta.select();
+        try{ document.execCommand('copy'); done('Email copié dans le presse-papiers.'); }
+        catch(e){ done('Copie impossible — email : ' + email); }
+        document.body.removeChild(ta);
+      }
+    });
+  }
+
+  // Afficher le numéro
+  var showBtn = document.getElementById('show-phone');
+  var phone = document.getElementById('phone-number');
+  if(showBtn && phone){
+    showBtn.addEventListener('click', function(){
+      phone.hidden = false;
+      showBtn.hidden = true;
+      phone.focus && phone.focus();
+    });
+  }
+
+  // Apparition discrète
+  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var items = document.querySelectorAll('.reveal');
+  if(reduced || !('IntersectionObserver' in window)){
+    items.forEach(function(el){ el.classList.add('visible'); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ en.target.classList.add('visible'); io.unobserve(en.target); }
+      });
+    }, {threshold: 0.12});
+    items.forEach(function(el){ io.observe(el); });
+  }
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
