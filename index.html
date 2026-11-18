@@ -1,474 +1,1109 @@
 <!DOCTYPE html>
-<html lang="fr" data-theme="light">
+<html lang="fr" dir="ltr" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Alaa DHOUIB — Développeur Web Full Stack | IA & Data Science</title>
-<meta name="description" content="CV en ligne d'Alaa DHOUIB, développeur web full stack (Laravel, PHP, React, Angular, SQL) et élève ingénieur en IA et Data Science à Sfax, Tunisie.">
-<meta name="author" content="Alaa DHOUIB">
+<title>Alaa Dhouib — Développeur Informatique | Full Stack & Solutions Logicielles</title>
+<meta name="description" content="Portfolio d'Alaa Dhouib, développeur informatique à Sfax : sites web, e-commerce, applications de gestion, ERP, plateformes de réservation, bases de données et Business Intelligence.">
+<meta name="author" content="Alaa Dhouib">
+<meta name="robots" content="index, follow">
 <meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#1F6B75" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0f2225" media="(prefers-color-scheme: dark)">
-<meta property="og:title" content="Alaa DHOUIB — Développeur Web Full Stack">
-<meta property="og:description" content="Élève ingénieur en IA & Data Science, développeur Laravel / React / Angular. Basé à Sfax, Tunisie.">
+<meta name="theme-color" content="#0A1F3C" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#07111F" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://aldhb.github.io/alaaDhouib-cv/">
+<link rel="alternate" hreflang="fr" href="https://aldhb.github.io/alaaDhouib-cv/?lang=fr">
+<link rel="alternate" hreflang="en" href="https://aldhb.github.io/alaaDhouib-cv/?lang=en">
+<link rel="alternate" hreflang="ar" href="https://aldhb.github.io/alaaDhouib-cv/?lang=ar">
+<link rel="alternate" hreflang="x-default" href="https://aldhb.github.io/alaaDhouib-cv/">
+
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Alaa Dhouib">
+<meta property="og:title" content="Alaa Dhouib — Développeur Informatique | Full Stack & Solutions Logicielles">
+<meta property="og:description" content="Sites web, applications de gestion, ERP, plateformes de réservation et solutions Business Intelligence. Découvrez le portfolio d'Alaa Dhouib.">
+<meta property="og:url" content="https://aldhb.github.io/alaaDhouib-cv/">
+<meta property="og:image" content="https://aldhb.github.io/alaaDhouib-cv/assets/img/og-cover.jpg">
+<meta property="og:image:alt" content="Alaa Dhouib — Développeur Informatique, Full Stack, ERP et Data & BI">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ar_TN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Alaa Dhouib — Développeur Informatique">
+<meta name="twitter:description" content="Sites web, applications de gestion, ERP, réservation et Business Intelligence.">
+<meta name="twitter:image" content="https://aldhb.github.io/alaaDhouib-cv/assets/img/og-cover.jpg">
+<meta name="twitter:image:alt" content="Alaa Dhouib — Développeur Informatique, Full Stack, ERP et Data & BI">
+
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="apple-touch-icon" href="assets/img/alaa-dhouib.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>
+(function () {
+  document.documentElement.classList.add('js');
+  try {
+    var t = localStorage.getItem('theme');
+    if (t !== 'dark' && t !== 'light') {
+      t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+    var l = new URLSearchParams(window.location.search).get('lang') || localStorage.getItem('lang');
+    if (l === 'fr' || l === 'en' || l === 'ar') {
+      document.documentElement.lang = l;
+      document.documentElement.dir = l === 'ar' ? 'rtl' : 'ltr';
+    }
+  } catch (e) {}
+})();
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Alaa DHOUIB",
-  "jobTitle": "Développeur Web Full Stack",
+  "name": "Alaa Dhouib",
+  "url": "https://aldhb.github.io/alaaDhouib-cv/",
+  "image": "https://aldhb.github.io/alaaDhouib-cv/assets/img/alaa-dhouib.jpg",
+  "jobTitle": "Développeur Informatique",
+  "description": "Développeur informatique spécialisé dans les solutions web, les applications de gestion, les ERP et la Business Intelligence.",
+  "email": "mailto:dhouib.alaa@gmail.com",
+  "telephone": "+21655334713",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Sfax",
     "addressCountry": "TN"
   },
-  "email": "mailto:dhouib.alaa@gmail.com",
-  "knowsAbout": ["PHP", "Laravel", "React", "Angular", "HTML", "CSS", "SQL", "Business Intelligence", "Analyse de données"]
+  "sameAs": ["https://github.com/aldhb"],
+  "knowsAbout": ["PHP", "Laravel", "React", "Angular", "SQL", "MySQL", "SQL Server", "SSIS", "Power BI", "Data Warehouse", "ERP", "Business Intelligence"]
 }
 </script>
-<style>
-/* ===== Base ===== */
-*,*::before,*::after{box-sizing:border-box}
-:root{
-  --teal:#1F6B75;
-  --teal-dark:#14474e;
-  --teal-soft:#e6f2f3;
-  --bg:#ffffff;
-  --bg-alt:#f4f7f7;
-  --card:#ffffff;
-  --text:#1a2426;
-  --muted:#4b5b5e;
-  --border:#d9e4e5;
-  --header-bg:rgba(255,255,255,.96);
-  --badge-bg:#e6f2f3;
-  --badge-text:#14474e;
-  --focus:#0f4c55;
-  --shadow:0 2px 12px rgba(20,71,78,.08);
-  --radius:14px;
-  --max:1080px;
-}
-html[data-theme="dark"]{
-  --teal:#6fcbd4;
-  --teal-dark:#8fdb e3;
-  --teal-soft:#143337;
-  --bg:#101a1b;
-  --bg-alt:#152425;
-  --card:#18292b;
-  --text:#eef5f5;
-  --muted:#b6c7c8;
-  --border:#2a4345;
-  --header-bg:rgba(16,26,27,.96);
-  --badge-bg:#1d3a3d;
-  --badge-text:#d8f2f4;
-  --focus:#8fdae1;
-  --shadow:0 2px 14px rgba(0,0,0,.35);
-}
-html{scroll-behavior:smooth;scroll-padding-top:76px}
-@media (prefers-reduced-motion:reduce){
-  html{scroll-behavior:auto}
-  *,*::before,*::after{animation:none!important;transition:none!important}
-}
-body{
-  margin:0;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
-  background:var(--bg);color:var(--text);
-  line-height:1.65;font-size:1rem;
-  -webkit-font-smoothing:antialiased;
-}
-a{color:var(--teal);text-underline-offset:3px}
-html[data-theme="dark"] a{color:#7fd6de}
-a:hover{text-decoration-thickness:2px}
-:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:4px}
-.skip-link{position:absolute;left:-9999px;top:0;background:#14474e;color:#fff;padding:.7rem 1rem;z-index:200;border-radius:0 0 8px 0}
-.skip-link:focus{left:0;color:#fff}
-.wrap{max-width:var(--max);margin:0 auto;padding:0 1.1rem}
-section{padding:2.6rem 0}
-section h2{font-size:1.45rem;margin:0 0 .4rem;letter-spacing:-.01em}
-.section-sub{color:var(--muted);margin:0 0 1.4rem;max-width:65ch}
-.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:1.25rem 1.25rem}
-
-/* ===== Header / nav ===== */
-header.site{position:sticky;top:0;z-index:100;background:var(--header-bg);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
-.nav{display:flex;align-items:center;justify-content:space-between;gap:.6rem;min-height:62px;max-width:var(--max);margin:0 auto;padding:.4rem 1.1rem}
-.brand{font-weight:800;text-decoration:none;color:var(--text);font-size:1.05rem;letter-spacing:-.01em}
-.brand span{color:#1F6B75}
-html[data-theme="dark"] .brand span{color:#7fd6de}
-.nav-actions{display:flex;align-items:center;gap:.5rem}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;border-radius:999px;border:1px solid transparent;padding:.68rem 1.15rem;font-weight:650;font-size:.95rem;cursor:pointer;text-decoration:none;line-height:1.2;transition:transform .15s ease,background .15s ease}
-.btn-primary{background:#1F6B75;color:#fff}
-.btn-primary:hover{background:#14474e;color:#fff}
-html[data-theme="dark"] .btn-primary{background:#2a8a95;color:#06272b}
-html[data-theme="dark"] .btn-primary:hover{background:#37a3ae;color:#06272b}
-.btn-secondary{background:transparent;border-color:var(--border);color:var(--text)}
-.btn-secondary:hover{border-color:#1F6B75}
-html[data-theme="dark"] .btn-secondary:hover{border-color:#7fd6de}
-.btn-small{padding:.45rem .8rem;font-size:.87rem}
-.icon-btn{background:transparent;border:1px solid var(--border);border-radius:10px;color:var(--text);cursor:pointer;padding:.5rem .6rem;font-size:1rem;line-height:1}
-#menu-btn{display:inline-flex}
-#nav-links{list-style:none;margin:0;padding:0;display:none;flex-direction:column;gap:.15rem;background:var(--header-bg);border-top:1px solid var(--border);padding:.6rem 1.1rem 1rem}
-#nav-links.open{display:flex}
-#nav-links a{display:block;padding:.6rem .6rem;border-radius:8px;text-decoration:none;color:var(--text);font-weight:550}
-#nav-links a:hover{background:var(--teal-soft)}
-@media(min-width:900px){
-  #menu-btn{display:none}
-  #nav-links{display:flex!important;flex-direction:row;align-items:center;gap:.15rem;background:transparent;border:0;padding:0}
-  #nav-links a{padding:.5rem .65rem;font-size:.92rem;white-space:nowrap}
-  .nav{ gap:1rem}
-}
-
-/* ===== Hero ===== */
-.hero{background:linear-gradient(180deg,var(--teal-soft),transparent 75%);border-bottom:1px solid var(--border);padding:3rem 0 2.4rem}
-.hero-grid{display:grid;gap:1.6rem;align-items:center}
-@media(min-width:820px){.hero-grid{grid-template-columns:200px 1fr;gap:2.2rem}.hero{padding:3.6rem 0 3rem}}
-.photo-frame{width:172px;height:172px;border-radius:28px;overflow:hidden;border:4px solid #fff;box-shadow:var(--shadow);background:var(--bg-alt);justify-self:start}
-.photo-frame img{width:100%;height:100%;object-fit:cover;display:block}
-.eyebrow{display:inline-block;font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#14474e;background:#dceeee;border-radius:999px;padding:.3rem .75rem;margin-bottom:.7rem}
-html[data-theme="dark"] .eyebrow{color:#d8f2f4;background:#1d3a3d}
-.hero h1{font-size:2rem;line-height:1.12;margin:0 0 .3rem;letter-spacing:-.02em}
-@media(min-width:820px){.hero h1{font-size:2.6rem}}
-.hero .role{font-weight:700;color:#1F6B75;margin:0 0 .7rem;font-size:1.05rem}
-html[data-theme="dark"] .hero .role{color:#7fd6de}
-.hero .hook{color:var(--muted);max-width:68ch;margin:0 0 1rem}
-.meta{display:flex;flex-wrap:wrap;gap:.5rem .9rem;color:var(--muted);font-size:.94rem;margin:0 0 1.3rem}
-.hero-cta{display:flex;flex-wrap:wrap;gap:.65rem}
-
-/* ===== Badges compétences ===== */
-.skills-grid{display:grid;gap:.9rem}
-@media(min-width:820px){.skills-grid{grid-template-columns:1fr 1fr}}
-.skill-cat h3{font-size:.98rem;margin:0 0 .65rem;color:#14474e}
-html[data-theme="dark"] .skill-cat h3{color:#a9e3e8}
-.badges{list-style:none;display:flex;flex-wrap:wrap;gap:.45rem;margin:0;padding:0}
-.badges li{background:var(--badge-bg);color:var(--badge-text);border:1px solid var(--border);border-radius:999px;padding:.36rem .75rem;font-size:.88rem;font-weight:600}
-
-/* ===== Timeline ===== */
-.timeline{list-style:none;margin:0;padding:0;position:relative}
-.timeline::before{content:"";position:absolute;left:10px;top:8px;bottom:8px;width:2px;background:var(--border)}
-.timeline>li{position:relative;padding:0 0 1.1rem 2.4rem}
-.timeline>li:last-child{padding-bottom:0}
-.dot{position:absolute;left:2px;top:6px;width:18px;height:18px;border-radius:50%;background:#1F6B75;border:3px solid var(--bg);box-shadow:0 0 0 2px #1F6B75}
-html[data-theme="dark"] .dot{background:#5ec2cc;box-shadow:0 0 0 2px #5ec2cc}
-.job-title{margin:0 0 .15rem;font-size:1.05rem}
-.job-meta{color:var(--muted);font-size:.92rem;margin:0 0 .55rem}
-ul.clean{margin:.4rem 0 0;padding-left:1.15rem}
-ul.clean li{margin-bottom:.3rem}
-.edu-item{display:grid;gap:.1rem;padding:.9rem 0;border-bottom:1px dashed var(--border)}
-.edu-item:last-child{border-bottom:0}
-.edu-years{font-weight:750;color:#1F6B75;font-size:.9rem}
-html[data-theme="dark"] .edu-years{color:#7fd6de}
-
-/* ===== Contact ===== */
-.contact-grid{display:grid;gap:.9rem}
-@media(min-width:820px){.contact-grid{grid-template-columns:1.2fr .8fr}}
-.contact-line{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;margin:.7rem 0}
-.muted{color:var(--muted)}
-.status{min-height:1.4em;font-size:.9rem;color:var(--muted)}
-footer{border-top:1px solid var(--border);padding:1.4rem 0 2rem;color:var(--muted);font-size:.9rem}
-
-/* ===== Apparition discrète ===== */
-.reveal{opacity:0;transform:translateY(10px);transition:opacity .5s ease,transform .5s ease}
-.reveal.visible{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
-</style>
 </head>
 <body>
-<a class="skip-link" href="#contenu">Aller au contenu</a>
+<a class="skip-link" href="#contenu" data-i18n="a11y.skip">Aller au contenu</a>
 
-<header class="site">
-  <div class="nav" role="navigation" aria-label="Navigation principale">
-    <a class="brand" href="#accueil" aria-label="Retour en haut">Alaa <span>DHOUIB</span></a>
-    <div class="nav-actions">
-      <a class="btn btn-primary btn-small" href="cv.pdf" download>Télécharger le CV</a>
-      <button id="theme-btn" class="icon-btn" type="button" aria-pressed="false" aria-label="Basculer entre mode clair et sombre" title="Clair / sombre">◐</button>
-      <button id="menu-btn" class="icon-btn" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Ouvrir le menu">☰</button>
+<svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+  <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M8.5 3.5 6 4.8a2 2 0 0 0-1.1 2.2c.6 5.5 4.6 9.5 10.1 10.1a2 2 0 0 0 2.2-1.1l1.3-2.5a1.4 1.4 0 0 0-.6-1.8l-2.6-1.2a1.4 1.4 0 0 0-1.6.4l-1 1.2a12.5 12.5 0 0 1-3.8-3.8l1.2-1a1.4 1.4 0 0 0 .4-1.6L9.3 4.1a1.4 1.4 0 0 0-.8-.6Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.6 9.6 0 0 1 12 6.8c.85 0 1.7.11 2.5.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.1 4.05 4.18-1.1A9.9 9.9 0 1 0 12.04 2Zm5.77 14.04c-.24.68-1.4 1.3-1.93 1.35-.53.05-1.03.24-3.46-.72-2.93-1.15-4.77-4.15-4.91-4.34-.14-.19-1.17-1.56-1.17-2.98 0-1.42.75-2.12 1.01-2.4.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.66.5.24.58.82 2 .89 2.14.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.29-.12.58.17.29.75 1.24 1.62 2.01 1.11.99 2.05 1.3 2.34 1.44.29.15.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.39-.24.66-.14.27.1 1.69.8 1.98.94.29.15.48.22.55.34.07.12.07.7-.17 1.38Z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.4 2.5 3.6 5.5 3.6 9s-1.2 6.5-3.6 9c-2.4-2.5-3.6-5.5-3.6-9S9.6 5.5 12 3Z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m20 6-11 11-5-5"/></symbol>
+  <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 6-5 6 5 6M16 6l5 6-5 6"/></symbol>
+  <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5.5" rx="8" ry="3"/><path d="M4 5.5v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6M4 11.5v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 12 9 5 9-5M3 16l9 5 9-5"/></symbol>
+  <symbol id="i-cart" viewBox="0 0 24 24"><path d="M3 4h2l2.3 10.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.6L21 7H6"/><circle cx="10" cy="20" r="1.3"/><circle cx="18" cy="20" r="1.3"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M8 3v4M16 3v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 17.5h.01M12 17.5h.01"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V4M4 20h16"/><path d="m7 16 4-5 3 3 4-6"/></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 12h18M10 12v2h4v-2"/></symbol>
+  <symbol id="i-graduation" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5L2 9Z"/><path d="M6 11.2V16c2.7 2.3 9.3 2.3 12 0v-4.8M22 9v5"/></symbol>
+  <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="m12 3 1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8L12 3ZM19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15Z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5.5c0 4.2 2.9 7.6 7 9.5 4.1-1.9 7-5.3 7-9.5V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.5 6.5a4.5 4.5 0 0 0 5.9 5.9l-9.8 9.8a2.1 2.1 0 0 1-3-3l9.8-9.8a4.5 4.5 0 0 0-5.9-5.9l2.8 2.8-2.1 2.1-2.8-2.8a4.5 4.5 0 0 0 5.1 0Z"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+  <symbol id="i-server" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="6" rx="2"/><rect x="3" y="14" width="18" height="6" rx="2"/><path d="M7 7h.01M7 17h.01"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0M16 5.2a3.2 3.2 0 0 1 0 5.6M18 20a6 6 0 0 0-2-4.5"/></symbol>
+  <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1.09-1.55 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.55-1H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.64 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.64 1.7 1.7 0 0 0 10 3.09V3a2 2 0 1 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.36 9c.16.6.72 1 1.55 1H21a2 2 0 1 1 0 4h-.09a1.7 1.7 0 0 0-1.51 1Z"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+  <symbol id="i-quote" viewBox="0 0 24 24"><path d="M10 11H6V7a2 2 0 0 1 2-2M20 11h-4V7a2 2 0 0 1 2-2"/><path d="M10 11v3a4 4 0 0 1-4 4M20 11v3a4 4 0 0 1-4 4"/></symbol>
+  <symbol id="i-headphones" viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="13" width="4" height="7" rx="2"/><rect x="17" y="13" width="4" height="7" rx="2"/></symbol>
+  <symbol id="i-watch" viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="3"/><path d="M9 7V4h6v3M9 17v3h6v-3M12 10v2.5l1.5 1"/></symbol>
+  <symbol id="i-keyboard" viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="2.5"/><path d="M6 10h.01M9 10h.01M12 10h.01M15 10h.01M18 10h.01M6 13h.01M9 13h.01M12 13h.01M15 13h.01M18 13h.01M8 16h8"/></symbol>
+</svg>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#accueil" aria-label="Alaa Dhouib — Accueil" data-i18n-aria-label="a11y.brandHome">
+      <span class="brand-mark" aria-hidden="true">AD</span>
+      <span class="brand-name">Alaa <strong>Dhouib</strong></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navigation principale" data-i18n-aria-label="a11y.mainNav">
+      <ul>
+        <li><a href="#a-propos" data-i18n="nav.about">À propos</a></li>
+        <li><a href="#competences" data-i18n="nav.skills">Compétences</a></li>
+        <li><a href="#projets" data-i18n="nav.projects">Projets</a></li>
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Expérience</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switch" data-lang-switch>
+        <button class="lang-trigger" id="lang-btn" type="button" aria-haspopup="menu" aria-expanded="false" aria-label="Changer de langue" data-i18n-aria-label="a11y.lang">
+          <svg class="icon" aria-hidden="true"><use href="#i-globe"></use></svg>
+          <span id="lang-current">FR</span>
+          <svg class="icon icon-chevron" aria-hidden="true"><use href="#i-chevron-down"></use></svg>
+        </button>
+        <div class="lang-menu" id="lang-menu" role="menu" aria-labelledby="lang-btn" hidden>
+          <button type="button" role="menuitemradio" aria-checked="true" data-set-lang="fr" lang="fr"><span class="lang-code">FR</span><span>Français</span><svg class="icon lang-check" aria-hidden="true"><use href="#i-check"></use></svg></button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-set-lang="en" lang="en"><span class="lang-code">EN</span><span>English</span><svg class="icon lang-check" aria-hidden="true"><use href="#i-check"></use></svg></button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-set-lang="ar" lang="ar"><span class="lang-code">AR</span><span>العربية</span><svg class="icon lang-check" aria-hidden="true"><use href="#i-check"></use></svg></button>
+        </div>
+      </div>
+
+      <button id="theme-btn" class="icon-btn" type="button" aria-pressed="false" aria-label="Basculer entre le thème clair et sombre" data-i18n-aria-label="a11y.theme" title="Clair / sombre" data-i18n-title="a11y.theme">
+        <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"></use></svg>
+        <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"></use></svg>
+      </button>
+
+      <a class="btn btn-primary btn-sm header-cv" href="cv.pdf" download>
+        <svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg>
+        <span data-i18n="actions.cv">CV</span>
+      </a>
+
+      <button id="menu-btn" class="icon-btn menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Ouvrir le menu" data-i18n-aria-label="a11y.openMenu">
+        <svg class="icon icon-menu" aria-hidden="true"><use href="#i-menu"></use></svg>
+        <svg class="icon icon-close" aria-hidden="true"><use href="#i-close"></use></svg>
+      </button>
     </div>
   </div>
-  <nav aria-label="Sections du CV">
-    <ul id="nav-links">
-      <li><a href="#a-propos">À propos</a></li>
-      <li><a href="#competences">Compétences</a></li>
-      <li><a href="#experience">Expérience</a></li>
-      <li><a href="#formation">Formation</a></li>
-      <li><a href="#associatif">Associatif</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#langues">Langues</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+
+  <div class="mobile-nav" id="mobile-nav" hidden>
+    <nav aria-label="Sections du portfolio" data-i18n-aria-label="a11y.sectionNav">
+      <ul>
+        <li><a href="#accueil" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="#a-propos" data-i18n="nav.about">À propos</a></li>
+        <li><a href="#competences" data-i18n="nav.skills">Compétences</a></li>
+        <li><a href="#projets" data-i18n="nav.projects">Projets</a></li>
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Expérience</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-nav-footer">
+      <a class="btn btn-primary" href="cv.pdf" download>
+        <svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg>
+        <span data-i18n="actions.downloadCv">Télécharger mon CV</span>
+      </a>
+      <a class="btn btn-secondary" href="https://github.com/aldhb" target="_blank" rel="noopener noreferrer">
+        <svg class="icon" aria-hidden="true"><use href="#i-github"></use></svg>
+        <span>GitHub</span>
+      </a>
+    </div>
+  </div>
 </header>
 
 <main id="contenu">
-  <!-- Hero -->
-  <section class="hero" id="accueil" aria-labelledby="titre-hero">
-    <div class="wrap hero-grid">
-      <div class="photo-frame">
-        <img src="photo.jpg" alt="Photo de Alaa DHOUIB" width="400" height="400" fetchpriority="high">
+<section class="hero" id="accueil" aria-labelledby="hero-title">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="availability"><span class="pulse-dot" aria-hidden="true"></span><span data-i18n="hero.available">Disponible pour missions & collaborations</span></p>
+      <h1 id="hero-title"><span data-i18n="hero.firstName">Alaa</span> <span class="accent" data-i18n="hero.lastName">Dhouib</span></h1>
+      <p class="hero-role" data-i18n="hero.role">Développeur Informatique · Full Stack Developer</p>
+      <p class="hero-lead" data-i18n="hero.lead1">Je conçois et développe des solutions numériques pour les entreprises : sites web, applications de gestion, plateformes de réservation, ERP et tableaux de bord décisionnels.</p>
+      <p class="hero-lead hero-lead--muted" data-i18n="hero.lead2">Mon objectif : transformer les besoins métiers en solutions informatiques efficaces, modernes et adaptées à chaque activité.</p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projets">
+          <span data-i18n="actions.discoverProjects">Découvrir mes projets</span>
+          <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+        </a>
+        <a class="btn btn-secondary" href="#contact">
+          <svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg>
+          <span data-i18n="actions.contactMe">Me contacter</span>
+        </a>
+        <a class="btn btn-ghost" href="cv.pdf" download>
+          <svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg>
+          <span data-i18n="hero.downloadCv">Télécharger mon CV PDF</span>
+        </a>
       </div>
-      <div>
-        <span class="eyebrow">Sfax, Tunisie — Disponible</span>
-        <h1 id="titre-hero">Alaa DHOUIB</h1>
-        <p class="role">Développeur Web Full Stack | Élève ingénieur en Intelligence Artificielle et Data Science</p>
-        <p class="hook">Élève ingénieur en 2ème année d'Intelligence Artificielle et Data Science (IIT Sfax), titulaire d'une licence en Informatique de Gestion, spécialité Business Intelligence. J'ai conçu, développé et administré le site e-commerce d'une société de vente en gros d'accessoires GSM et informatique.</p>
-        <div class="hero-cta">
-          <a class="btn btn-primary" href="#contact">Me contacter</a>
-          <a class="btn btn-secondary" href="cv.pdf" download>Télécharger mon CV (PDF)</a>
-        </div>
-        <p class="meta" aria-label="Informations rapides">
-          <span>📍 Sfax, Tunisie</span>
-          <span>✉️ <a href="mailto:dhouib.alaa@gmail.com">dhouib.alaa@gmail.com</a></span>
-        </p>
+
+      <div class="hero-meta">
+        <a href="https://github.com/aldhb" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true"><use href="#i-github"></use></svg>
+          <span>github.com/aldhb</span>
+        </a>
+        <a href="mailto:dhouib.alaa@gmail.com">
+          <svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg>
+          <span>dhouib.alaa@gmail.com</span>
+        </a>
+        <span class="hero-location">
+          <svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg>
+          <span data-i18n="hero.location">Sfax, Tunisie</span>
+        </span>
       </div>
     </div>
-  </section>
 
-  <div class="wrap">
-    <!-- À propos -->
-    <section id="a-propos" class="reveal" aria-labelledby="t-a-propos">
-      <h2 id="t-a-propos">À propos</h2>
-      <p class="section-sub">Profil</p>
-      <div class="card">
-        <p>Élève ingénieur en 2ème année d'Intelligence Artificielle et Data Science (IIT Sfax), titulaire d'une licence en Informatique de Gestion, spécialité Business Intelligence. Développeur web full stack (Laravel, PHP, React, Angular, SQL) ayant conçu, développé et administré le site e-commerce d'une société de vente en gros d'accessoires GSM et informatique. Rigoureux, doté d'un bon esprit d'analyse et du sens de la résolution de problèmes, avec une réelle écoute des utilisateurs.</p>
+    <div class="hero-visual">
+      <div class="hero-photo-card">
+        <div class="photo-frame">
+          <picture>
+            <source srcset="assets/img/alaa-dhouib.jpg" type="image/jpeg">
+            <img src="assets/img/alaa-dhouib.jpg" alt="Alaa Dhouib, développeur informatique à Sfax" data-i18n-alt="a11y.photoAlt" width="1000" height="1000" fetchpriority="high" decoding="async">
+          </picture>
+        </div>
+        <div class="float-card float-card--location">
+          <span class="float-icon float-icon--green"><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg></span>
+          <span class="float-text"><strong data-i18n="hero.location">Sfax, Tunisie</strong><small data-i18n="hero.remote">Missions sur site & à distance</small></span>
+        </div>
+        <div class="float-card float-card--stack">
+          <span class="float-icon float-icon--blue"><svg class="icon" aria-hidden="true"><use href="#i-code"></use></svg></span>
+          <span class="float-text"><strong>Full Stack · ERP · Data</strong><small data-i18n="hero.stackNote">Web, gestion & Business Intelligence</small></span>
+        </div>
+        <div class="photo-decoration" aria-hidden="true"></div>
       </div>
-    </section>
+    </div>
+  </div>
 
-    <!-- Compétences -->
-    <section id="competences" class="reveal" aria-labelledby="t-competences">
-      <h2 id="t-competences">Compétences</h2>
-      <p class="section-sub">Regroupées par catégorie, sans niveaux chiffrés.</p>
-      <div class="skills-grid">
-        <div class="card skill-cat"><h3>Back-end</h3><ul class="badges"><li>PHP</li><li>Laravel</li></ul></div>
-        <div class="card skill-cat"><h3>Front-end</h3><ul class="badges"><li>HTML</li><li>CSS</li><li>React</li><li>Angular</li></ul></div>
-        <div class="card skill-cat"><h3>Bases de données</h3><ul class="badges"><li>SQL</li><li>phpMyAdmin</li><li>Modélisation de données</li></ul></div>
-        <div class="card skill-cat"><h3>Data &amp; BI</h3><ul class="badges"><li>Business Intelligence (BI)</li><li>Analyse de données</li></ul></div>
-        <div class="card skill-cat"><h3>Administration de site e-commerce</h3><ul class="badges"><li>Hébergement</li><li>Mises à jour</li><li>Maintenance</li><li>Sécurité</li><li>Gestion du catalogue produits</li></ul></div>
-        <div class="card skill-cat"><h3>Support &amp; documentation</h3><ul class="badges"><li>Diagnostic et résolution de problèmes</li><li>Assistance aux utilisateurs</li><li>Installation et configuration de logiciels</li><li>Documentation technique</li></ul></div>
-        <div class="card skill-cat"><h3>Transversales</h3><ul class="badges"><li>Gestion de projet</li><li>Leadership et gestion d'équipe</li><li>Communication claire avec les non-techniciens</li><li>Esprit d'entrepreneuriat</li></ul></div>
+  <div class="container">
+    <div class="hero-facts">
+      <div class="hero-fact">
+        <span class="fact-icon"><svg class="icon" aria-hidden="true"><use href="#i-monitor"></use></svg></span>
+        <div><strong data-i18n="hero.fact1.title">Web & Full Stack</strong><span data-i18n="hero.fact1.text">Sites, interfaces et applications</span></div>
       </div>
-    </section>
-
-    <!-- Expérience -->
-    <section id="experience" class="reveal" aria-labelledby="t-experience">
-      <h2 id="t-experience">Expérience professionnelle</h2>
-      <p class="section-sub">Parcours technique et fonctionnel.</p>
-      <ol class="timeline">
-        <li>
-          <span class="dot" aria-hidden="true"></span>
-          <div class="card">
-            <h3 class="job-title">Responsable technique et développeur du site e-commerce — Société BSM</h3>
-            <p class="job-meta">Vente en gros d'accessoires GSM et informatique · Sfax</p>
-            <ul class="clean">
-              <li>Conçu et développé le site e-commerce de la société.</li>
-              <li>Administré le site : hébergement, base de données, mises à jour et maintenance.</li>
-              <li>Diagnostiqué et résolu les incidents techniques, et assuré l'assistance des utilisateurs et des clients.</li>
-              <li>Géré le catalogue produits et les commandes, et assuré le suivi de la relation client.</li>
-              <li>Assuré le suivi des performances et de la sécurité du site.</li>
-            </ul>
-          </div>
-        </li>
-      </ol>
-    </section>
-
-    <!-- Formation -->
-    <section id="formation" class="reveal" aria-labelledby="t-formation">
-      <h2 id="t-formation">Formation</h2>
-      <p class="section-sub">Cursus académique.</p>
-      <div class="card">
-        <div class="edu-item"><span class="edu-years">2026 – 2027</span><strong>Cycle ingénieur en Intelligence Artificielle et Data Science (2ème année) – IIT Sfax</strong></div>
-        <div class="edu-item"><span class="edu-years">2025 – 2026</span><strong>Cycle ingénieur en Génie Informatique (1ère année) – IIT Sfax</strong></div>
-        <div class="edu-item"><span class="edu-years">2022 – 2025</span><strong>Licence nationale en Informatique de Gestion, spécialité Business Intelligence – ISGIS Sfax</strong></div>
-        <div class="edu-item"><span class="edu-years">2021</span><strong>Baccalauréat Économie et Gestion – Lycée Taieb El Mhiri, Sfax</strong></div>
+      <div class="hero-fact">
+        <span class="fact-icon"><svg class="icon" aria-hidden="true"><use href="#i-briefcase"></use></svg></span>
+        <div><strong data-i18n="hero.fact2.title">ERP & gestion</strong><span data-i18n="hero.fact2.text">Digitalisation des processus métiers</span></div>
       </div>
-    </section>
+      <div class="hero-fact">
+        <span class="fact-icon"><svg class="icon" aria-hidden="true"><use href="#i-chart"></use></svg></span>
+        <div><strong data-i18n="hero.fact3.title">Data & BI</strong><span data-i18n="hero.fact3.text">Data Warehouse et tableaux de bord</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section about" id="a-propos" aria-labelledby="about-title">
+  <div class="container">
+    <div class="about-layout">
+      <div class="about-main reveal">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span><span data-i18n="about.label">À propos</span></p>
+        <h2 id="about-title" data-i18n="about.title">Je transforme les besoins métiers en solutions concrètes.</h2>
+        <p class="lead" data-i18n="about.p1">Développeur informatique basé à Sfax, je combine une formation en Informatique de Gestion et Business Intelligence avec une pratique concrète du développement web et logiciel. Cette double culture me permet de comprendre les processus d'une entreprise avant de concevoir les outils qui les accompagnent.</p>
+        <p data-i18n="about.p2">J'ai conçu, développé et administré la plateforme e-commerce d'une société de vente en gros d'accessoires GSM et informatiques. De l'analyse du besoin à la maintenance, en passant par la gestion des données et l'assistance aux utilisateurs, cette expérience m'a appris à livrer des solutions fiables et réellement utilisables.</p>
+        <p data-i18n="about.p3">Aujourd'hui, je développe des applications de gestion, des ERP, des plateformes de réservation et des solutions décisionnelles. J'attache une grande importance à la clarté de l'interface, à la qualité des données et à la simplicité d'usage.</p>
 
-    <!-- Associatif -->
-    <section id="associatif" class="reveal" aria-labelledby="t-associatif">
-      <h2 id="t-associatif">Expérience associative</h2>
-      <p class="section-sub">Engagement et communication.</p>
-      <ol class="timeline">
-        <li>
-          <span class="dot" aria-hidden="true"></span>
-          <div class="card">
-            <h3 class="job-title">Chef du département Marketing Digital — Ider Club, ISGIS Sfax</h3>
-            <p class="job-meta">Précédemment membre du département</p>
-            <ul class="clean">
-              <li>Coordonné l'équipe du département et assuré le suivi des projets marketing.</li>
-              <li>Participé à l'élaboration des stratégies de communication digitale.</li>
-              <li>Géré et animé les réseaux sociaux du club.</li>
-              <li>Créé des contenus graphiques et audiovisuels (dont des montages vidéo) pour promouvoir les activités et les événements.</li>
-              <li>Participé aux campagnes de communication et aux activités promotionnelles en tant que membre du département.</li>
-            </ul>
-          </div>
-        </li>
-      </ol>
-    </section>
+        <blockquote class="about-quote">
+          <svg class="icon quote-icon" aria-hidden="true"><use href="#i-quote"></use></svg>
+          <p data-i18n="about.quote">Un bon logiciel ne se contente pas de fonctionner : il fait gagner du temps à ceux qui l'utilisent.</p>
+        </blockquote>
 
-    <!-- Certifications -->
-    <section id="certifications" class="reveal" aria-labelledby="t-certifications">
-      <h2 id="t-certifications">Certifications et formations complémentaires</h2>
-      <p class="section-sub">Apprentissages complémentaires.</p>
-      <div class="card">
-        <ul class="clean">
-          <li>Laboratoire Tripartite d'Innovation : Design Thinking, Lean Startup, Lean Canvas, Pitching (Pépinière d'entreprises de Sfax / Ider ISGIS / société Jalyys)</li>
-          <li>Certification Office 365</li>
-          <li>Formation en montage vidéo : Adobe Premiere Pro</li>
+        <p class="mini-label" data-i18n="about.approachLabel">Ma façon de travailler</p>
+        <ul class="pill-list" data-list="about.approach">
+          <li>Écoute du besoin</li>
+          <li>Rigueur</li>
+          <li>Résolution de problèmes</li>
+          <li>Autonomie</li>
+          <li>Communication</li>
+          <li>Gestion de projet</li>
         </ul>
       </div>
-    </section>
 
-    <!-- Langues / intérêts -->
-    <section id="langues" class="reveal" aria-labelledby="t-langues">
-      <h2 id="t-langues">Langues &amp; centres d'intérêt</h2>
-      <div class="skills-grid">
-        <div class="card skill-cat"><h3>Langues</h3><ul class="badges"><li>Arabe (langue maternelle)</li><li>Français (courant)</li><li>Anglais (courant)</li></ul></div>
-        <div class="card skill-cat"><h3>Centres d'intérêt</h3><ul class="badges"><li>Entrepreneuriat</li><li>Création de contenu digital</li></ul></div>
-      </div>
-    </section>
-
-    <!-- Projets (masquée — à remplir) -->
-    <section id="projets" hidden aria-labelledby="t-projets">
-      <h2 id="t-projets">Projets</h2>
-      <!--
-      CARTE MODÈLE 1 — à compléter :
-      <article class="card">
-        <h3>Titre du projet</h3>
-        <p>Description courte du projet.</p>
-        <p>Technologies : ex. Laravel, React, SQL</p>
-        <p><a href="https://github.com/UTILISATEUR/REPO">GitHub</a> · <a href="https://demo.exemple.fr">Démo</a></p>
-      </article>
-
-      CARTE MODÈLE 2 — à compléter :
-      <article class="card">
-        <h3>Titre du projet</h3>
-        <p>Description courte du projet.</p>
-        <p>Technologies : ex. Angular, PHP, SQL</p>
-        <p><a href="https://github.com/UTILISATEUR/REPO">GitHub</a> · <a href="https://demo.exemple.fr">Démo</a></p>
-      </article>
-      Pour afficher la section : retirez l'attribut « hidden » de <section id="projets">.
-      -->
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="reveal" aria-labelledby="t-contact">
-      <h2 id="t-contact">Contact</h2>
-      <p class="section-sub">Réponse rapide — recruteurs et responsables techniques bienvenus.</p>
-      <div class="contact-grid">
-        <div class="card">
-          <p><strong>Email</strong><br><a id="email-link" href="mailto:dhouib.alaa@gmail.com">dhouib.alaa@gmail.com</a></p>
-          <div class="contact-line">
-            <button id="copy-email" class="btn btn-secondary btn-small" type="button">Copier l'email</button>
-            <a class="btn btn-primary btn-small" href="mailto:dhouib.alaa@gmail.com?subject=Candidature%20—%20D%C3%A9veloppeur%20Web%20Full%20Stack">Me contacter</a>
+      <aside class="about-aside reveal">
+        <div class="card profile-card">
+          <div class="profile-head">
+            <img src="assets/img/alaa-dhouib.jpg" alt="Alaa Dhouib" width="64" height="64" loading="lazy" decoding="async">
+            <div>
+              <strong>Alaa Dhouib</strong>
+              <span data-i18n="about.profile.role">Développeur Informatique</span>
+            </div>
           </div>
-          <p class="status" id="copy-status" role="status" aria-live="polite"></p>
-          <p><strong>Téléphone</strong><br>
-            <span id="phone-zone">
-              <button id="show-phone" class="btn btn-secondary btn-small" type="button" aria-expanded="false" aria-controls="phone-number">Afficher le numéro</button>
-              <a id="phone-number" href="tel:+21655334713" hidden>+216 55 334 713</a>
-            </span>
-          </p>
-          <p class="muted">📍 Sfax, Tunisie</p>
-          <!-- À COMPLÉTER — LinkedIn / GitHub : remplacez les href par vos vrais liens puis décommentez
-          <p>
-            <a class="btn btn-secondary btn-small" href="https://linkedin.com/in/VOTRE-PROFIL">LinkedIn</a>
-            <a class="btn btn-secondary btn-small" href="https://github.com/VOTRE-PSEUDO">GitHub</a>
-          </p>
-          -->
+          <dl class="fact-list">
+            <div><dt data-i18n="about.profile.location">Localisation</dt><dd data-i18n="hero.location">Sfax, Tunisie</dd></div>
+            <div><dt data-i18n="about.profile.education">Formation</dt><dd data-i18n="about.profile.educationValue">Informatique de Gestion & BI</dd></div>
+            <div><dt data-i18n="about.profile.focus">Spécialités</dt><dd>Web · ERP · Data</dd></div>
+            <div><dt data-i18n="about.profile.languages">Langues</dt><dd>FR · EN · AR</dd></div>
+          </dl>
+          <a class="btn btn-secondary btn-block" href="cv.pdf" download>
+            <svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg>
+            <span data-i18n="actions.downloadCv">Télécharger mon CV</span>
+          </a>
         </div>
-        <div class="card">
-          <h3 style="margin-top:0">Télécharger le CV</h3>
-          <p class="muted">Version PDF pour candidature et impression.</p>
-          <p><a class="btn btn-primary" href="cv.pdf" download>Télécharger mon CV (PDF)</a></p>
+        <div class="card availability-card">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <div>
+            <strong data-i18n="about.profile.availability">Ouvert aux opportunités</strong>
+            <p data-i18n="about.profile.availabilityText">Missions freelance, collaborations et postes en développement logiciel.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <div class="pillars-grid">
+      <article class="pillar-card reveal">
+        <span class="pillar-icon"><svg class="icon" aria-hidden="true"><use href="#i-sparkles"></use></svg></span>
+        <h3 data-i18n="about.pillars.analysis.title">Analyse & conception</h3>
+        <p data-i18n="about.pillars.analysis.text">Comprendre le besoin, modéliser les données et définir une solution adaptée.</p>
+      </article>
+      <article class="pillar-card reveal">
+        <span class="pillar-icon"><svg class="icon" aria-hidden="true"><use href="#i-code"></use></svg></span>
+        <h3 data-i18n="about.pillars.fullstack.title">Développement full stack</h3>
+        <p data-i18n="about.pillars.fullstack.text">Interfaces, back-end, bases de données et intégration des fonctionnalités.</p>
+      </article>
+      <article class="pillar-card reveal">
+        <span class="pillar-icon"><svg class="icon" aria-hidden="true"><use href="#i-briefcase"></use></svg></span>
+        <h3 data-i18n="about.pillars.business.title">Solutions métiers</h3>
+        <p data-i18n="about.pillars.business.text">ERP, gestion commerciale, réservation et digitalisation des processus.</p>
+      </article>
+      <article class="pillar-card reveal">
+        <span class="pillar-icon"><svg class="icon" aria-hidden="true"><use href="#i-chart"></use></svg></span>
+        <h3 data-i18n="about.pillars.data.title">Data & Business Intelligence</h3>
+        <p data-i18n="about.pillars.data.text">Structurer la donnée et la transformer en tableaux de bord utiles.</p>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="section section-soft skills" id="competences" aria-labelledby="skills-title">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span><span data-i18n="skills.label">Expertise technique</span></p>
+        <h2 id="skills-title" data-i18n="skills.title">Des compétences techniques au service des projets métiers.</h2>
+      </div>
+      <p class="section-sub" data-i18n="skills.subtitle">Des technologies choisies pour concevoir, développer et maintenir des solutions complètes — sans niveaux artificiels.</p>
+    </div>
+
+    <div class="skills-grid">
+      <article class="skill-card reveal">
+        <div class="skill-head">
+          <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-code"></use></svg></span>
+          <span class="skill-index" aria-hidden="true">01</span>
+        </div>
+        <h3 data-i18n="skills.web.title">Développement Web</h3>
+        <p data-i18n="skills.web.desc">Interfaces modernes et applications web complètes, du front-end au back-end.</p>
+        <ul class="tag-list" data-list="skills.web.tags">
+          <li>PHP</li><li>Laravel</li><li>HTML5</li><li>CSS3</li><li>React</li><li>Angular</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-head">
+          <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-database"></use></svg></span>
+          <span class="skill-index" aria-hidden="true">02</span>
+        </div>
+        <h3 data-i18n="skills.db.title">Bases de données</h3>
+        <p data-i18n="skills.db.desc">Conception, modélisation et administration de bases relationnelles.</p>
+        <ul class="tag-list" data-list="skills.db.tags">
+          <li>SQL</li><li>MySQL</li><li>Modélisation relationnelle</li><li>phpMyAdmin</li><li>Administration de bases de données</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-head">
+          <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-layers"></use></svg></span>
+          <span class="skill-index" aria-hidden="true">03</span>
+        </div>
+        <h3 data-i18n="skills.software.title">Développement logiciel</h3>
+        <p data-i18n="skills.software.desc">De l'analyse du besoin à la maintenance, avec une logique métier solide.</p>
+        <ul class="tag-list" data-list="skills.software.tags">
+          <li>Analyse des besoins</li><li>Conception d'applications</li><li>Logique métier</li><li>Développement de fonctionnalités</li><li>Maintenance & évolution</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-head">
+          <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-briefcase"></use></svg></span>
+          <span class="skill-index" aria-hidden="true">04</span>
+        </div>
+        <h3 data-i18n="skills.erp.title">ERP & solutions métiers</h3>
+        <p data-i18n="skills.erp.desc">Des outils de gestion pensés pour les processus réels des entreprises.</p>
+        <ul class="tag-list" data-list="skills.erp.tags">
+          <li>Logiciels de gestion personnalisés</li><li>Gestion commerciale</li><li>Gestion des stocks</li><li>Gestion des ventes</li><li>Gestion des produits</li><li>Digitalisation</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-head">
+          <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-chart"></use></svg></span>
+          <span class="skill-index" aria-hidden="true">05</span>
+        </div>
+        <h3 data-i18n="skills.bi.title">Business Intelligence</h3>
+        <p data-i18n="skills.bi.desc">Structuration des données, ETL et restitution décisionnelle.</p>
+        <ul class="tag-list" data-list="skills.bi.tags">
+          <li>Data Warehouse</li><li>Modélisation dimensionnelle</li><li>ETL</li><li>SQL Server</li><li>SSIS</li><li>Power BI</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-head">
+          <span class="skill-icon"><svg class="icon" aria-hidden="true"><use href="#i-settings"></use></svg></span>
+          <span class="skill-index" aria-hidden="true">06</span>
+        </div>
+        <h3 data-i18n="skills.tools.title">Outils & méthodes</h3>
+        <p data-i18n="skills.tools.desc">Un environnement de travail organisé, collaboratif et documenté.</p>
+        <ul class="tag-list" data-list="skills.tools.tags">
+          <li>Git & GitHub</li><li>Visual Studio Code</li><li>Microsoft Office 365</li><li>Gestion de projet</li><li>Documentation technique</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="skills-note reveal">
+      <svg class="icon" aria-hidden="true"><use href="#i-check"></use></svg>
+      <p data-i18n="skills.note">Les compétences sont présentées par domaine, sans pourcentages : ce qui compte, c'est la capacité à concevoir et livrer une solution complète.</p>
+    </div>
+  </div>
+</section>
+<section class="section projects" id="projets" aria-labelledby="projects-title">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span><span data-i18n="projects.label">Portfolio</span></p>
+        <h2 id="projects-title" data-i18n="projects.title">Quatre projets, quatre problèmes métiers résolus.</h2>
+      </div>
+      <p class="section-sub" data-i18n="projects.subtitle">Des réalisations concrètes en e-commerce, réservation, ERP et Business Intelligence. Chaque projet est présenté avec son contexte, son statut réel et les fonctionnalités développées.</p>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card reveal" data-project="ecommerce">
+        <div class="project-cover cover-shop" aria-hidden="true">
+          <div class="browser">
+            <div class="browser-bar"><span></span><span></span><span></span><i></i></div>
+            <div class="shop-nav">
+              <span class="shop-logo"></span>
+              <span class="shop-links"><i></i><i></i><i></i></span>
+              <span class="shop-cart"><svg class="icon"><use href="#i-cart"></use></svg></span>
+            </div>
+            <div class="shop-hero">
+              <div class="skeleton s-kicker"></div>
+              <div class="skeleton s-title"></div>
+              <div class="skeleton s-title s-title--short"></div>
+              <div class="skeleton s-btn"></div>
+              <div class="shop-orb"></div>
+            </div>
+            <div class="shop-products">
+              <div class="shop-product"><span class="product-art"><svg class="icon"><use href="#i-headphones"></use></svg></span><i class="skeleton s-line"></i><i class="skeleton s-line s-line--short"></i><b class="skeleton s-price"></b></div>
+              <div class="shop-product"><span class="product-art"><svg class="icon"><use href="#i-watch"></use></svg></span><i class="skeleton s-line"></i><i class="skeleton s-line s-line--short"></i><b class="skeleton s-price"></b></div>
+              <div class="shop-product"><span class="product-art"><svg class="icon"><use href="#i-keyboard"></use></svg></span><i class="skeleton s-line"></i><i class="skeleton s-line s-line--short"></i><b class="skeleton s-price"></b></div>
+            </div>
+          </div>
+          <span class="cover-label" data-i18n="projects.mockup">Aperçu illustratif</span>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-index" aria-hidden="true">01</span>
+            <span class="project-category" data-i18n="projects.items.ecommerce.category">Développement Web · E-commerce</span>
+            <span class="status status--live" data-i18n="projects.items.ecommerce.status">En production</span>
+          </div>
+          <h3 data-i18n="projects.items.ecommerce.title">Plateforme e-commerce — Gadgets & accessoires informatiques</h3>
+          <p class="project-client" data-i18n="projects.items.ecommerce.client">Société BSM · Sfax</p>
+          <p class="project-summary" data-i18n="projects.items.ecommerce.summary">Une plateforme e-commerce pour présenter et commercialiser gadgets, accessoires informatiques et produits électroniques.</p>
+          <div class="project-problem">
+            <span class="problem-label" data-i18n="projects.problemLabel">Problématique</span>
+            <p data-i18n="projects.items.ecommerce.problem">Structurer un catalogue large, faciliter la consultation des produits et centraliser la gestion commerciale en ligne.</p>
+          </div>
+          <ul class="feature-chips" data-list="projects.items.ecommerce.features" data-list-limit="3" data-i18n-aria-label="projects.featuresLabel">
+            <li>Catalogue de produits</li><li>Catégories & organisation</li><li>Fiches produits</li><li class="chip-more">+3</li>
+          </ul>
+          <ul class="tech-list" data-list="projects.items.ecommerce.tech" data-i18n-aria-label="projects.stackLabel">
+            <li>PHP</li><li>MySQL</li><li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+          </ul>
+          <p class="project-note" hidden data-i18n="projects.items.ecommerce.note">Site en production, administré au quotidien. Démonstration privée sur demande.</p>
+          <div class="project-actions">
+            <button class="btn btn-primary btn-sm" type="button" data-open-project="ecommerce">
+              <span data-i18n="actions.viewProject">Découvrir le projet</span>
+              <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+            </button>
+            <a class="btn btn-ghost btn-sm" href="#contact" data-prefill-demo="ecommerce">
+              <span data-i18n="actions.privateDemo">Démo privée</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" data-project="booking">
+        <div class="project-cover cover-booking" aria-hidden="true">
+          <div class="booking-ui">
+            <div class="booking-head">
+              <span class="booking-icon"><svg class="icon"><use href="#i-calendar"></use></svg></span>
+              <div class="booking-title"><i class="skeleton s-line"></i><i class="skeleton s-line s-line--short"></i></div>
+            </div>
+            <div class="calendar-grid">
+              <span class="cal-head"></span><span class="cal-head"></span><span class="cal-head"></span><span class="cal-head"></span><span class="cal-head"></span><span class="cal-head"></span><span class="cal-head"></span>
+              <span class="cal-muted">28</span><span class="cal-muted">29</span><span class="cal-muted">30</span><span>1</span><span>2</span><span>3</span><span>4</span>
+              <span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span>
+              <span>12</span><span>13</span><span class="cal-active">14</span><span>15</span><span>16</span><span>17</span><span>18</span>
+            </div>
+            <div class="time-slots"><span>09:00</span><span class="slot-active">10:30</span><span>14:00</span></div>
+            <div class="booking-submit"></div>
+          </div>
+          <div class="booking-toast"><svg class="icon"><use href="#i-check"></use></svg><span data-i18n="projects.bookingToast">Réservation confirmée</span></div>
+          <span class="cover-label" data-i18n="projects.mockup">Aperçu illustratif</span>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-index" aria-hidden="true">02</span>
+            <span class="project-category" data-i18n="projects.items.booking.category">Développement Web · Réservation</span>
+            <span class="status status--done" data-i18n="projects.items.booking.status">Réalisé · démo privée</span>
+          </div>
+          <h3 data-i18n="projects.items.booking.title">Plateforme de réservation en ligne</h3>
+          <p class="project-client" data-i18n="projects.items.booking.client">Projet web · Sfax</p>
+          <p class="project-summary" data-i18n="projects.items.booking.summary">Une plateforme qui digitalise la prise de réservation : services, disponibilités, demandes et suivi centralisé.</p>
+          <div class="project-problem">
+            <span class="problem-label" data-i18n="projects.problemLabel">Problématique</span>
+            <p data-i18n="projects.items.booking.problem">Remplacer les échanges manuels par un parcours de réservation clair, organisé et traçable.</p>
+          </div>
+          <ul class="feature-chips" data-list="projects.items.booking.features" data-list-limit="3" data-i18n-aria-label="projects.featuresLabel">
+            <li>Consultation des services</li><li>Formulaire de réservation</li><li>Gestion des demandes</li><li class="chip-more">+3</li>
+          </ul>
+          <ul class="tech-list" data-list="projects.items.booking.tech" data-i18n-aria-label="projects.stackLabel">
+            <li>PHP</li><li>MySQL</li><li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+          </ul>
+          <p class="project-note" hidden data-i18n="projects.items.booking.note">Projet réalisé — démonstration privée sur demande.</p>
+          <div class="project-actions">
+            <button class="btn btn-primary btn-sm" type="button" data-open-project="booking">
+              <span data-i18n="actions.viewProject">Découvrir le projet</span>
+              <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+            </button>
+            <a class="btn btn-ghost btn-sm" href="#contact" data-prefill-demo="booking">
+              <span data-i18n="actions.privateDemo">Démo privée</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" data-project="erp">
+        <div class="project-cover cover-erp" aria-hidden="true">
+          <div class="erp-ui">
+            <aside class="erp-side">
+              <span class="erp-logo"></span>
+              <i class="skeleton erp-nav-line"></i><i class="skeleton erp-nav-line"></i><i class="skeleton erp-nav-line"></i><i class="skeleton erp-nav-line"></i><i class="skeleton erp-nav-line"></i>
+            </aside>
+            <div class="erp-content">
+              <div class="erp-top"><i class="skeleton s-line" style="width:34%"></i><span class="erp-user"></span></div>
+              <div class="erp-kpis">
+                <div class="erp-kpi"><span class="kpi-icon"><svg class="icon"><use href="#i-cart"></use></svg></span><i class="skeleton s-line"></i><i class="skeleton s-line s-line--short"></i></div>
+                <div class="erp-kpi"><span class="kpi-icon"><svg class="icon"><use href="#i-layers"></use></svg></span><i class="skeleton s-line"></i><i class="skeleton s-line s-line--short"></i></div>
+                <div class="erp-kpi"><span class="kpi-icon"><svg class="icon"><use href="#i-chart"></use></svg></span><i class="skeleton s-line"></i><i class="skeleton s-line s-line--short"></i></div>
+              </div>
+              <div class="erp-panels">
+                <div class="erp-bar-panel"><div class="bars"><i style="--h:38%"></i><i style="--h:62%"></i><i style="--h:48%"></i><i style="--h:78%"></i><i style="--h:56%"></i><i style="--h:88%"></i></div></div>
+                <div class="erp-donut-panel"><span class="donut"></span></div>
+              </div>
+            </div>
+          </div>
+          <span class="cover-label" data-i18n="projects.mockup">Aperçu illustratif</span>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-index" aria-hidden="true">03</span>
+            <span class="project-category" data-i18n="projects.items.erp.category">Logiciel · ERP · Gestion commerciale</span>
+            <span class="status status--dev" data-i18n="projects.items.erp.status">En développement</span>
+          </div>
+          <h3 data-i18n="projects.items.erp.title">ERP pour boutiques GSM & accessoires</h3>
+          <p class="project-client" data-i18n="projects.items.erp.client">Solution métier · Sfax</p>
+          <p class="project-summary" data-i18n="projects.items.erp.summary">Un ERP pour centraliser produits, stocks, achats, ventes et marges des boutiques de téléphonie.</p>
+          <div class="project-problem">
+            <span class="problem-label" data-i18n="projects.problemLabel">Problématique</span>
+            <p data-i18n="projects.items.erp.problem">Des données dispersées entre fichiers et registres rendent le suivi des stocks, des ventes et des marges difficile.</p>
+          </div>
+          <ul class="feature-chips" data-list="projects.items.erp.features" data-list-limit="3" data-i18n-aria-label="projects.featuresLabel">
+            <li>Produits & catégories</li><li>Stocks & mouvements</li><li>Ventes & clients</li><li class="chip-more">+5</li>
+          </ul>
+          <ul class="tech-list" data-list="projects.items.erp.tech" data-i18n-aria-label="projects.stackLabel">
+            <li>PHP</li><li>MySQL</li><li>Modélisation relationnelle</li><li>Interface d'administration</li>
+          </ul>
+          <p class="project-note" hidden data-i18n="projects.items.erp.note">Projet en développement : toutes les fonctionnalités du périmètre ne sont pas encore opérationnelles.</p>
+          <div class="project-actions">
+            <button class="btn btn-primary btn-sm" type="button" data-open-project="erp">
+              <span data-i18n="actions.viewProject">Découvrir le projet</span>
+              <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+            </button>
+            <a class="btn btn-ghost btn-sm" href="#contact" data-prefill-demo="erp">
+              <span data-i18n="actions.discuss">Discuter du projet</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal" data-project="bi">
+        <div class="project-cover cover-bi" aria-hidden="true">
+          <div class="bi-ui">
+            <div class="bi-top"><div class="bi-title"><i class="skeleton s-line" style="width:45%"></i><i class="skeleton s-line s-line--short"></i></div><span class="bi-pill">WideWorldImporters</span></div>
+            <div class="bi-kpis">
+              <div class="bi-kpi"><i class="skeleton s-line s-line--short"></i><svg viewBox="0 0 80 24" preserveAspectRatio="none"><path d="M0 18 12 13 24 16 36 8 48 11 60 5 80 2"/></svg></div>
+              <div class="bi-kpi"><i class="skeleton s-line s-line--short"></i><svg viewBox="0 0 80 24" preserveAspectRatio="none"><path d="M0 20 12 17 24 9 36 12 48 7 60 9 80 4"/></svg></div>
+              <div class="bi-kpi"><i class="skeleton s-line s-line--short"></i><svg viewBox="0 0 80 24" preserveAspectRatio="none"><path d="M0 15 12 16 24 7 36 10 48 4 60 8 80 3"/></svg></div>
+            </div>
+            <div class="bi-chart">
+              <svg viewBox="0 0 400 110" preserveAspectRatio="none">
+                <defs><linearGradient id="biGradient" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2563EB" stop-opacity=".28"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></linearGradient></defs>
+                <path d="M0 88 40 76 80 82 120 58 160 64 200 40 240 48 280 26 320 34 360 18 400 10V110H0Z" fill="url(#biGradient)"/>
+                <path d="M0 88 40 76 80 82 120 58 160 64 200 40 240 48 280 26 320 34 360 18 400 10" fill="none" stroke="#2563EB" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <div class="bi-bottom">
+              <span class="donut"></span>
+              <div class="mini-bars"><i style="--h:35%"></i><i style="--h:58%"></i><i style="--h:44%"></i><i style="--h:72%"></i><i style="--h:52%"></i><i style="--h:84%"></i><i style="--h:66%"></i></div>
+            </div>
+          </div>
+          <span class="cover-label" data-i18n="projects.mockup">Aperçu illustratif</span>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-index" aria-hidden="true">04</span>
+            <span class="project-category" data-i18n="projects.items.bi.category">Data Engineering · Business Intelligence</span>
+            <span class="status status--done" data-i18n="projects.items.bi.status">Projet réalisé</span>
+          </div>
+          <h3 data-i18n="projects.items.bi.title">Data Warehouse & BI — WideWorldImporters</h3>
+          <p class="project-client" data-i18n="projects.items.bi.client">Projet décisionnel</p>
+          <p class="project-summary" data-i18n="projects.items.bi.summary">Un entrepôt de données construit à partir de WideWorldImporters pour l'analyse et le reporting.</p>
+          <div class="project-problem">
+            <span class="problem-label" data-i18n="projects.problemLabel">Problématique</span>
+            <p data-i18n="projects.items.bi.problem">Une base opérationnelle ne permet pas une analyse fiable et rapide : il faut un modèle dimensionnel et des indicateurs structurés.</p>
+          </div>
+          <ul class="feature-chips" data-list="projects.items.bi.features" data-list-limit="3" data-i18n-aria-label="projects.featuresLabel">
+            <li>Modèle dimensionnel</li><li>Processus ETL avec SSIS</li><li>Tableaux de bord Power BI</li><li class="chip-more">+3</li>
+          </ul>
+          <ul class="tech-list" data-list="projects.items.bi.tech" data-i18n-aria-label="projects.stackLabel">
+            <li>SQL Server</li><li>SQL</li><li>SSIS</li><li>Power BI</li><li>Modélisation dimensionnelle</li>
+          </ul>
+          <p class="project-note" hidden data-i18n="projects.items.bi.note">Projet décisionnel réalisé : analyse, modélisation, ETL et restitution Power BI.</p>
+          <div class="project-actions">
+            <button class="btn btn-primary btn-sm" type="button" data-open-project="bi">
+              <span data-i18n="actions.viewProject">Découvrir le projet</span>
+              <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+            </button>
+            <a class="btn btn-ghost btn-sm" href="#contact" data-prefill-demo="bi">
+              <span data-i18n="actions.privateDemo">Démo privée</span>
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="projects-footer reveal">
+      <p class="projects-note">
+        <svg class="icon" aria-hidden="true"><use href="#i-shield"></use></svg>
+        <span data-i18n="projects.note">Les projets sans démonstration publique sont disponibles sur demande. Aucun lien de démonstration fictif n'est affiché.</span>
+      </p>
+      <div class="projects-cta">
+        <p><strong data-i18n="projects.ctaTitle">Un projet similaire ?</strong> <span data-i18n="projects.ctaText">Parlons de votre besoin et de la solution adaptée.</span></p>
+        <a class="btn btn-secondary btn-sm" href="#contact" data-prefill-demo="general">
+          <span data-i18n="actions.contactMe">Me contacter</span>
+          <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section-soft services" id="services" aria-labelledby="services-title">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span><span data-i18n="services.label">Services</span></p>
+        <h2 id="services-title" data-i18n="services.title">Des solutions informatiques adaptées à votre activité.</h2>
+      </div>
+      <p class="section-sub" data-i18n="services.subtitle">De l'idée à la mise en production, je vous accompagne sur l'ensemble du cycle de vie de votre projet.</p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <span class="service-number" aria-hidden="true">01</span>
+        <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-monitor"></use></svg></span>
+        <h3 data-i18n="services.items.web.title">Sites web professionnels</h3>
+        <p data-i18n="services.items.web.text">Sites vitrines, corporates et interfaces sur mesure, rapides et responsives.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-number" aria-hidden="true">02</span>
+        <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-cart"></use></svg></span>
+        <h3 data-i18n="services.items.ecommerce.title">Plateformes e-commerce</h3>
+        <p data-i18n="services.items.ecommerce.text">Catalogues, paniers, commandes et administration pour vendre en ligne.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-number" aria-hidden="true">03</span>
+        <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-layers"></use></svg></span>
+        <h3 data-i18n="services.items.software.title">Logiciels de gestion</h3>
+        <p data-i18n="services.items.software.text">Applications métiers pour structurer vos opérations quotidiennes.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-number" aria-hidden="true">04</span>
+        <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-briefcase"></use></svg></span>
+        <h3 data-i18n="services.items.erp.title">Solutions ERP</h3>
+        <p data-i18n="services.items.erp.text">Un ERP adapté à vos processus : ventes, stocks, achats et clients.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-number" aria-hidden="true">05</span>
+        <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-calendar"></use></svg></span>
+        <h3 data-i18n="services.items.booking.title">Réservation en ligne</h3>
+        <p data-i18n="services.items.booking.text">Parcours de réservation, disponibilités et suivi centralisé des demandes.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-number" aria-hidden="true">06</span>
+        <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-database"></use></svg></span>
+        <h3 data-i18n="services.items.database.title">Bases de données</h3>
+        <p data-i18n="services.items.database.text">Conception, modélisation, optimisation et administration de vos données.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-number" aria-hidden="true">07</span>
+        <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-chart"></use></svg></span>
+        <h3 data-i18n="services.items.bi.title">Business Intelligence</h3>
+        <p data-i18n="services.items.bi.text">Data Warehouse, ETL et tableaux de bord décisionnels.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-number" aria-hidden="true">08</span>
+        <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-wrench"></use></svg></span>
+        <h3 data-i18n="services.items.maintenance.title">Maintenance & évolution</h3>
+        <p data-i18n="services.items.maintenance.text">Correction, amélioration continue et accompagnement des utilisateurs.</p>
+      </article>
+    </div>
+
+    <div class="services-cta reveal">
+      <div class="services-cta-glow" aria-hidden="true"></div>
+      <div class="services-cta-copy">
+        <p class="cta-eyebrow" data-i18n="services.ctaLabel">Un besoin spécifique ?</p>
+        <h3 data-i18n="services.ctaTitle">Vous avez une idée ou un besoin spécifique ?</h3>
+        <p data-i18n="services.ctaText">Je peux vous accompagner dans la conception et le développement d'une solution informatique adaptée à votre activité.</p>
+      </div>
+      <div class="services-cta-actions">
+        <a class="btn btn-light" href="#contact" data-prefill-demo="general">
+          <span data-i18n="services.ctaButton">Discutons de votre projet</span>
+          <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+        </a>
+        <a class="btn btn-outline-light" href="#projets">
+          <span data-i18n="nav.projects">Projets</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section experience" id="experience" aria-labelledby="experience-title">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span><span data-i18n="experience.label">Parcours</span></p>
+        <h2 id="experience-title" data-i18n="experience.title">Une expérience concrète, du besoin à la production.</h2>
+      </div>
+      <p class="section-sub" data-i18n="experience.subtitle">Développement, administration technique, relation utilisateur et coordination de projets : un parcours orienté terrain.</p>
+    </div>
+
+    <div class="experience-layout">
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><svg class="icon" aria-hidden="true"><use href="#i-briefcase"></use></svg></div>
+          <div class="timeline-content card">
+            <div class="timeline-top">
+              <span class="chip-tag" data-i18n="experience.jobs.bsm.type">Expérience professionnelle</span>
+              <span class="timeline-place"><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg><span data-i18n="experience.jobs.bsm.place">Sfax, Tunisie</span></span>
+            </div>
+            <h3 data-i18n="experience.jobs.bsm.role">Responsable technique & Développeur du site e-commerce</h3>
+            <p class="timeline-org" data-i18n="experience.jobs.bsm.org">Société BSM · Vente en gros d'accessoires GSM et informatiques</p>
+            <ul class="bullet-list" data-list="experience.jobs.bsm.bullets">
+              <li>Analyse des besoins de l'entreprise et conception d'une solution e-commerce adaptée à son activité.</li>
+              <li>Développement de la plateforme : interfaces, fonctionnalités et gestion des données.</li>
+              <li>Administration technique : hébergement, base de données, mises à jour et maintenance.</li>
+              <li>Gestion du catalogue produits et suivi des commandes.</li>
+              <li>Diagnostic et résolution des incidents ; assistance aux utilisateurs et aux clients.</li>
+              <li>Suivi des performances et des aspects liés à la sécurité du site.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"><svg class="icon" aria-hidden="true"><use href="#i-users"></use></svg></div>
+          <div class="timeline-content card">
+            <div class="timeline-top">
+              <span class="chip-tag chip-tag--soft" data-i18n="experience.jobs.ider.type">Expérience associative</span>
+              <span class="timeline-place"><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg><span data-i18n="experience.jobs.ider.place">Sfax, Tunisie</span></span>
+            </div>
+            <h3 data-i18n="experience.jobs.ider.role">Responsable du département Marketing Digital</h3>
+            <p class="timeline-org" data-i18n="experience.jobs.ider.org">Ider Club — ISGIS Sfax</p>
+            <ul class="bullet-list" data-list="experience.jobs.ider.bullets">
+              <li>Coordination de l'équipe et suivi des projets du département.</li>
+              <li>Participation à l'élaboration des stratégies de communication digitale.</li>
+              <li>Gestion et animation des réseaux sociaux du club.</li>
+              <li>Création de contenus graphiques et audiovisuels, dont des montages vidéo.</li>
+              <li>Participation aux campagnes de communication et aux activités promotionnelles.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <aside class="education-aside">
+        <div class="card education-card reveal">
+          <div class="aside-head">
+            <span class="aside-icon"><svg class="icon" aria-hidden="true"><use href="#i-graduation"></use></svg></span>
+            <h3 data-i18n="education.title">Formation</h3>
+          </div>
+          <div class="edu-list">
+            <div class="edu-item">
+              <span class="edu-period" data-i18n="education.degrees.licence.period">2022 — 2025</span>
+              <strong data-i18n="education.degrees.licence.title">Licence nationale en Informatique de Gestion — Business Intelligence</strong>
+              <span data-i18n="education.degrees.licence.school">ISGIS · Sfax</span>
+            </div>
+            <div class="edu-item">
+              <span class="edu-period" data-i18n="education.degrees.engineering.period">2025 — 2027 · en cours</span>
+              <strong data-i18n="education.degrees.engineering.title">Cycle ingénieur — Intelligence Artificielle & Data Science</strong>
+              <span data-i18n="education.degrees.engineering.school">IIT · Sfax</span>
+            </div>
+            <div class="edu-item">
+              <span class="edu-period" data-i18n="education.degrees.bac.period">2021</span>
+              <strong data-i18n="education.degrees.bac.title">Baccalauréat Économie & Gestion</strong>
+              <span data-i18n="education.degrees.bac.school">Lycée Taieb El Mhiri · Sfax</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card education-card reveal">
+          <div class="aside-head">
+            <span class="aside-icon"><svg class="icon" aria-hidden="true"><use href="#i-shield"></use></svg></span>
+            <h3 data-i18n="education.certsTitle">Certifications & formations</h3>
+          </div>
+          <ul class="check-list" data-list="education.certs">
+            <li>Laboratoire Tripartite d'Innovation — Design Thinking, Lean Startup, Lean Canvas & Pitching</li>
+            <li>Certification Microsoft Office 365</li>
+            <li>Formation en montage vidéo — Adobe Premiere Pro</li>
+          </ul>
+        </div>
+
+        <div class="card education-card reveal">
+          <div class="aside-head">
+            <span class="aside-icon"><svg class="icon" aria-hidden="true"><use href="#i-globe"></use></svg></span>
+            <h3 data-i18n="education.languagesTitle">Langues</h3>
+          </div>
+          <ul class="language-list">
+            <li><span data-i18n="education.languages.ar">Arabe</span><strong data-i18n="education.levels.native">Langue maternelle</strong></li>
+            <li><span data-i18n="education.languages.fr">Français</span><strong data-i18n="education.levels.fluent">Courant</strong></li>
+            <li><span data-i18n="education.languages.en">Anglais</span><strong data-i18n="education.levels.fluent">Courant</strong></li>
+          </ul>
+          <div class="interests">
+            <span class="mini-label" data-i18n="education.interestsTitle">Centres d'intérêt</span>
+            <ul class="tag-list tag-list--sm" data-list="education.interests">
+              <li>Entrepreneuriat</li><li>Création de contenu digital</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+<section class="section contact" id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="contact-head">
+      <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span><span data-i18n="contact.label">Contact</span></p>
+      <h2 id="contact-title" data-i18n="contact.title">Parlons de votre prochain projet.</h2>
+      <p class="section-sub" data-i18n="contact.subtitle">Vous avez un projet informatique ? Discutons de votre besoin et construisons ensemble une solution adaptée.</p>
+    </div>
+
+    <div class="contact-layout">
+      <div class="contact-info">
+        <div class="contact-info-head">
+          <h3 data-i18n="contact.infoTitle">Restons en contact</h3>
+          <p data-i18n="contact.infoText">Disponible pour échanger sur votre projet, votre besoin ou une collaboration.</p>
+        </div>
+
+        <div class="contact-cards">
+          <a class="contact-card" href="mailto:dhouib.alaa@gmail.com">
+            <span class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg></span>
+            <span class="contact-card-text"><small data-i18n="contact.emailLabel">Email</small><strong>dhouib.alaa@gmail.com</strong></span>
+            <svg class="icon contact-arrow" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+          </a>
+          <a class="contact-card" href="tel:+21655334713">
+            <span class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg></span>
+            <span class="contact-card-text"><small data-i18n="contact.phoneLabel">Téléphone</small><strong dir="ltr">+216 55 334 713</strong></span>
+            <svg class="icon contact-arrow" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+          </a>
+          <a class="contact-card contact-card--whatsapp" href="https://wa.me/21655334713?text=Bonjour%20Alaa%2C%20je%20souhaite%20discuter%20d%27un%20projet." target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"></use></svg></span>
+            <span class="contact-card-text"><small>WhatsApp</small><strong data-i18n="contact.whatsappText">Discuter sur WhatsApp</strong></span>
+            <svg class="icon contact-arrow" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+          </a>
+          <a class="contact-card" href="https://github.com/aldhb" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-github"></use></svg></span>
+            <span class="contact-card-text"><small>GitHub</small><strong>github.com/aldhb</strong></span>
+            <svg class="icon contact-arrow" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+          </a>
+          <a class="contact-card" href="https://www.google.com/maps/search/?api=1&query=Sfax%2C%20Tunisia" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-pin"></use></svg></span>
+            <span class="contact-card-text"><small data-i18n="contact.locationLabel">Localisation</small><strong data-i18n="hero.location">Sfax, Tunisie</strong></span>
+            <svg class="icon contact-arrow" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+          </a>
+        </div>
+
+        <div class="contact-utils">
+          <button class="btn btn-secondary btn-sm" id="copy-email" type="button" data-email="dhouib.alaa@gmail.com">
+            <svg class="icon" aria-hidden="true"><use href="#i-copy"></use></svg>
+            <span data-i18n="actions.copyEmail">Copier l'adresse email</span>
+          </button>
+          <span class="copy-status" id="copy-status" role="status" aria-live="polite"></span>
+        </div>
+
+        <div class="cv-qr-card">
+          <div class="cv-qr-main">
+            <span class="cv-icon"><svg class="icon" aria-hidden="true"><use href="#i-download"></use></svg></span>
+            <div>
+              <strong data-i18n="contact.cvTitle">Mon CV en PDF</strong>
+              <p data-i18n="contact.cvText">Parcours, compétences et expériences en un document prêt à partager.</p>
+              <a class="btn btn-primary btn-sm" href="cv.pdf" download>
+                <span data-i18n="actions.downloadCv">Télécharger mon CV</span>
+                <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+              </a>
+            </div>
+          </div>
+          <div class="qr-block">
+            <img src="assets/img/portfolio-qr.png" alt="QR code vers le portfolio d'Alaa Dhouib" data-i18n-alt="contact.qrAlt" width="574" height="574" loading="lazy" decoding="async">
+            <span data-i18n="contact.qrText">Scanner pour ouvrir le portfolio</span>
+          </div>
         </div>
       </div>
-    </section>
+
+      <div class="contact-form-card">
+        <div class="form-head">
+          <span class="form-icon"><svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg></span>
+          <div>
+            <h3 data-i18n="contact.formTitle">Décrivez votre besoin</h3>
+            <p data-i18n="contact.formText">Quelques lignes suffisent pour démarrer la discussion.</p>
+          </div>
+        </div>
+
+        <!-- Laissez data-endpoint vide pour ouvrir le client mail, ou renseignez une URL Formspree. Voir README.md. -->
+        <form id="contact-form" class="contact-form" novalidate data-endpoint="">
+          <div class="form-grid">
+            <div class="field">
+              <label for="cf-name" data-i18n="form.name">Nom complet</label>
+              <input id="cf-name" name="name" type="text" autocomplete="name" placeholder="Votre nom" data-i18n-placeholder="form.namePlaceholder" required aria-describedby="cf-name-error">
+              <span class="field-error" id="cf-name-error"></span>
+            </div>
+            <div class="field">
+              <label for="cf-email" data-i18n="form.email">Adresse email</label>
+              <input id="cf-email" name="email" type="email" autocomplete="email" placeholder="vous@entreprise.com" data-i18n-placeholder="form.emailPlaceholder" required aria-describedby="cf-email-error">
+              <span class="field-error" id="cf-email-error"></span>
+            </div>
+          </div>
+          <div class="field">
+            <label for="cf-subject" data-i18n="form.subject">Sujet</label>
+            <input id="cf-subject" name="subject" type="text" placeholder="Site web, ERP, application métier…" data-i18n-placeholder="form.subjectPlaceholder" required aria-describedby="cf-subject-error">
+            <span class="field-error" id="cf-subject-error"></span>
+          </div>
+          <div class="field">
+            <label for="cf-message" data-i18n="form.message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" placeholder="Décrivez votre projet, vos objectifs et vos contraintes…" data-i18n-placeholder="form.messagePlaceholder" required aria-describedby="cf-message-error"></textarea>
+            <span class="field-error" id="cf-message-error"></span>
+          </div>
+          <div class="honeypot" aria-hidden="true">
+            <label for="cf-company">Société</label>
+            <input id="cf-company" name="company" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <button class="btn btn-primary btn-block" type="submit" id="cf-submit">
+            <span data-i18n="form.submit">Envoyer le message</span>
+            <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+          </button>
+          <p class="form-privacy">
+            <svg class="icon" aria-hidden="true"><use href="#i-shield"></use></svg>
+            <span data-i18n="form.privacy">Vos informations sont utilisées uniquement pour répondre à votre demande.</span>
+          </p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
   </div>
+</section>
 </main>
 
-<footer>
-  <div class="wrap">© <span id="year">2026</span> Alaa DHOUIB — Sfax, Tunisie · <a href="mailto:dhouib.alaa@gmail.com">dhouib.alaa@gmail.com</a></div>
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <a class="brand brand--footer" href="#accueil" aria-label="Alaa Dhouib — Accueil" data-i18n-aria-label="a11y.brandHome">
+        <span class="brand-mark" aria-hidden="true">AD</span>
+        <span class="brand-name">Alaa <strong>Dhouib</strong></span>
+      </a>
+      <p data-i18n="footer.tagline">Développeur Informatique · Full Stack Developer · Solutions Logicielles</p>
+      <div class="footer-socials">
+        <a href="https://github.com/aldhb" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg class="icon" aria-hidden="true"><use href="#i-github"></use></svg>
+        </a>
+        <a href="mailto:dhouib.alaa@gmail.com" aria-label="Email" data-i18n-aria-label="actions.email">
+          <svg class="icon" aria-hidden="true"><use href="#i-mail"></use></svg>
+        </a>
+        <a href="https://wa.me/21655334713" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" data-i18n-aria-label="actions.whatsapp">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"></use></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.navTitle">Navigation</h4>
+      <ul>
+        <li><a href="#a-propos" data-i18n="nav.about">À propos</a></li>
+        <li><a href="#projets" data-i18n="nav.projects">Projets</a></li>
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Expérience</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 data-i18n="footer.contactTitle">Contact</h4>
+      <ul>
+        <li><a href="mailto:dhouib.alaa@gmail.com">dhouib.alaa@gmail.com</a></li>
+        <li><a href="tel:+21655334713" dir="ltr">+216 55 334 713</a></li>
+        <li><span data-i18n="hero.location">Sfax, Tunisie</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© <span id="year">2026</span> Alaa Dhouib. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+    <div class="footer-bottom-links">
+      <a href="https://github.com/aldhb/alaaDhouib-cv" target="_blank" rel="noopener noreferrer" data-i18n="footer.source">Code source du portfolio</a>
+      <a href="#accueil" data-i18n="actions.backTop">Retour en haut</a>
+    </div>
+  </div>
 </footer>
+<dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-summary">
+  <div class="dialog-panel">
+    <button class="dialog-close" type="button" data-close-dialog aria-label="Fermer" data-i18n-aria-label="actions.close">
+      <svg class="icon" aria-hidden="true"><use href="#i-close"></use></svg>
+    </button>
+    <div class="dialog-head">
+      <span class="dialog-index" id="dialog-index" aria-hidden="true">01</span>
+      <div class="dialog-head-meta">
+        <span class="project-category" id="dialog-category"></span>
+        <span class="status" id="dialog-status"></span>
+      </div>
+    </div>
+    <p class="dialog-eyebrow" data-i18n="dialog.caseStudy">Étude de cas</p>
+    <h2 id="dialog-title"></h2>
+    <p class="dialog-client" id="dialog-client"></p>
+    <p class="dialog-summary" id="dialog-summary"></p>
 
-<script>
-(function(){
-  var root = document.documentElement;
-  var btn = document.getElementById('theme-btn');
-  function systemDark(){ return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches; }
-  function apply(t){
-    root.setAttribute('data-theme', t);
-    if(btn){ btn.setAttribute('aria-pressed', t === 'dark' ? 'true' : 'false'); }
-    try{ localStorage.setItem('theme', t); }catch(e){}
-  }
-  var saved = null;
-  try{ saved = localStorage.getItem('theme'); }catch(e){}
-  apply(saved || (systemDark() ? 'dark' : 'light'));
-  if(btn){ btn.addEventListener('click', function(){
-    apply(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
-  });}
+    <div class="dialog-block">
+      <h3 data-i18n="projects.problemLabel">Problématique</h3>
+      <p id="dialog-problem"></p>
+    </div>
 
-  // Menu mobile
-  var menuBtn = document.getElementById('menu-btn');
-  var links = document.getElementById('nav-links');
-  if(menuBtn && links){
-    menuBtn.addEventListener('click', function(){
-      var open = links.classList.toggle('open');
-      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      menuBtn.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
-    });
-    links.addEventListener('click', function(e){
-      if(e.target.tagName === 'A' && links.classList.contains('open')){
-        links.classList.remove('open');
-        menuBtn.setAttribute('aria-expanded','false');
-      }
-    });
-  }
+    <div class="dialog-block">
+      <h3 data-i18n="projects.featuresLabel">Fonctionnalités clés</h3>
+      <ul class="dialog-features" id="dialog-features"></ul>
+    </div>
 
-  // Copier l'email
-  var copyBtn = document.getElementById('copy-email');
-  var status = document.getElementById('copy-status');
-  var email = 'dhouib.alaa@gmail.com';
-  if(copyBtn){
-    copyBtn.addEventListener('click', function(){
-      function done(msg){ if(status) status.textContent = msg; }
-      if(navigator.clipboard && navigator.clipboard.writeText){
-        navigator.clipboard.writeText(email).then(function(){ done('Email copié dans le presse-papiers.'); }, function(){ fallback(); });
-      } else { fallback(); }
-      function fallback(){
-        var ta = document.createElement('textarea');
-        ta.value = email; document.body.appendChild(ta); ta.select();
-        try{ document.execCommand('copy'); done('Email copié dans le presse-papiers.'); }
-        catch(e){ done('Copie impossible — email : ' + email); }
-        document.body.removeChild(ta);
-      }
-    });
-  }
+    <div class="dialog-block">
+      <h3 data-i18n="projects.stackLabel">Technologies</h3>
+      <ul class="tech-list" id="dialog-tech"></ul>
+    </div>
 
-  // Afficher le numéro
-  var showBtn = document.getElementById('show-phone');
-  var phone = document.getElementById('phone-number');
-  if(showBtn && phone){
-    showBtn.addEventListener('click', function(){
-      phone.hidden = false;
-      showBtn.hidden = true;
-      phone.focus && phone.focus();
-    });
-  }
+    <div class="dialog-note" id="dialog-note"></div>
 
-  // Apparition discrète
-  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var items = document.querySelectorAll('.reveal');
-  if(reduced || !('IntersectionObserver' in window)){
-    items.forEach(function(el){ el.classList.add('visible'); });
-  } else {
-    var io = new IntersectionObserver(function(entries){
-      entries.forEach(function(en){
-        if(en.isIntersecting){ en.target.classList.add('visible'); io.unobserve(en.target); }
-      });
-    }, {threshold: 0.12});
-    items.forEach(function(el){ io.observe(el); });
-  }
+    <div class="dialog-actions">
+      <a class="btn btn-primary" href="#contact" id="dialog-contact">
+        <span data-i18n="dialog.contact">Discuter de ce projet</span>
+        <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+      </a>
+      <button class="btn btn-secondary" type="button" data-close-dialog>
+        <span data-i18n="actions.close">Fermer</span>
+      </button>
+    </div>
+  </div>
+</dialog>
+<button class="back-to-top" id="back-to-top" type="button" aria-label="Retour en haut" data-i18n-aria-label="actions.backTop" hidden>
+  <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"></use></svg>
+</button>
 
-  document.getElementById('year').textContent = new Date().getFullYear();
-})();
-</script>
+<script src="assets/js/i18n.js" defer></script>
+<script src="assets/js/lang-fr.js" defer></script>
+<script src="assets/js/lang-en.js" defer></script>
+<script src="assets/js/lang-ar.js" defer></script>
+<script src="assets/js/main.js" defer></script>
 </body>
 </html>
